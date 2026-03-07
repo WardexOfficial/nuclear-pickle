@@ -124,6 +124,7 @@
 using Content.Client._durkcode.ServerCurrency;
 using Content.Client._RMC14.LinkAccount;
 CorvaxGoob-Coins-end */
+using Content.Client._Nuclear.Administration.ScreenCheck;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
@@ -167,6 +168,7 @@ namespace Content.Client.IoC
             collection.Register<IClientPreferencesManager, ClientPreferencesManager>();
             collection.Register<IStylesheetManager, StylesheetManager>();
             collection.Register<IScreenshotHook, ScreenshotHook>();
+            collection.Register<ScreenCheckClientManager>();
             collection.Register<FullscreenHook, FullscreenHook>();
             collection.Register<IClickMapManager, ClickMapManager>();
             collection.Register<IClientAdminManager, ClientAdminManager>();

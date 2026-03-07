@@ -165,6 +165,7 @@
 
 using Content.Server._CorvaxGoob.TTS;
 // using Content.Server._RMC14.LinkAccount; // RMC - Patreon
+using Content.Server._Nuclear.Administration.ScreenCheck;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
@@ -225,6 +226,7 @@ namespace Content.Server.IoC
             IoCManager.Register<ContentNetworkResourceManager>();
             IoCManager.Register<IAdminNotesManager, AdminNotesManager>();
             IoCManager.Register<GhostKickManager>();
+            IoCManager.Register<ScreenCheckManager>();
             IoCManager.Register<ISharedAdminLogManager, AdminLogManager>();
             IoCManager.Register<IAdminLogManager, AdminLogManager>();
             IoCManager.Register<PlayTimeTrackingManager>();

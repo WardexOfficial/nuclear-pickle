@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client.Lobby;
 using Content.Goobstation.Common.CCVar;
 using Content.Shared.CCVar;
@@ -13,28 +17,10 @@ public sealed class PatronSupportUIController : UIController, IOnStateEntered<Lo
     [Dependency] private readonly IUriOpener _uriOpener = default!;
 
     private PatronSupportWindow? _supportWindow;
-    private bool _hasShownThisSession;
 
     public void OnStateEntered(LobbyState state)
     {
-        if (_hasShownThisSession)
-            return;
-
-        var lastShown = _cfg.GetCVar(GoobCVars.PatronSupportLastShown);
-        var now = DateTime.UtcNow;
-
-        if (!string.IsNullOrEmpty(lastShown))
-        {
-            if (DateTime.TryParse(lastShown, out var lastShownDate))
-            {
-                var daysSinceLastShown = (now - lastShownDate).TotalDays;
-                if (daysSinceLastShown < _cfg.GetCVar(GoobCVars.PatronAskSupport))
-                    return;
-            }
-        }
-
-        _hasShownThisSession = true;
-        ShowSupportWindow();
+        // Disable the automatic Corvax support prompt on lobby entry.
     }
 
     public void OnStateExited(LobbyState state)

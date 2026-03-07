@@ -120,6 +120,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Client.Administration.Managers;
+using Content.Client._Nuclear.Administration.ScreenCheck;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.DebugMon;
@@ -175,6 +176,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly IConfigurationManager _configManager = default!;
         [Dependency] private readonly IStylesheetManager _stylesheetManager = default!;
         [Dependency] private readonly IScreenshotHook _screenshotHook = default!;
+        [Dependency] private readonly ScreenCheckClientManager _screenCheckManager = default!;
         [Dependency] private readonly FullscreenHook _fullscreenHook = default!;
         [Dependency] private readonly ChangelogManager _changelogManager = default!;
         [Dependency] private readonly ViewportManager _viewportManager = default!;
@@ -257,6 +259,7 @@ namespace Content.Client.Entry
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
             _screenshotHook.Initialize();
+            _screenCheckManager.Initialize();
             _fullscreenHook.Initialize();
             _changelogManager.Initialize();
             _viewportManager.Initialize();

@@ -124,6 +124,7 @@ using Content.Server.Speech.Prototypes;
 using Content.Server.Station.Systems;
 using Content.Shared._CorvaxGoob.Chat;
 using Content.Shared._EinsteinEngines.Language; // Einstein Engines - Language
+using Content.Shared._Nuclear.Chat;
 using Content.Shared._Goobstation.Wizard.Chuuni;
 using Content.Shared._Starlight.CollectiveMind; // Goobstation - Starlight collective mind port
 using Content.Shared.ActionBlocker;
@@ -145,6 +146,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
@@ -992,6 +994,8 @@ public sealed partial class ChatSystem : SharedChatSystem
         if (!_critLoocEnabled && _mobStateSystem.IsCritical(source))
             return;
 
+        if (!CanSendChat(player, ChatChannel.LOOC))
+            return;
         var wrappedMessage = Loc.GetString("chat-manager-entity-looc-wrap-message",
             ("entityName", name),
             ("message", FormattedMessage.EscapeText(message)));
@@ -1021,6 +1025,8 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         var speech = GetSpeechVerb(source, message); // Goobstation - Dead chat verbs
 
+        if (!CanSendChat(player, ChatChannel.Dead))
+            return;
         if (_adminManager.IsAdmin(player))
         {
             wrappedMessage = Loc.GetString("chat-manager-send-admin-dead-chat-wrap-message",
@@ -1045,6 +1051,13 @@ public sealed partial class ChatSystem : SharedChatSystem
     #endregion
 
     #region Utility
+
+    private bool CanSendChat(ICommonSession player, ChatChannel channel)
+    {
+        var sendAttempt = new NuclearChatSendAttemptEvent(player, channel);
+        EntityManager.EventBus.RaiseEvent(EventSource.Local, sendAttempt);
+        return !sendAttempt.Cancelled;
+    }
 
     private enum MessageRangeCheckResult
     {
