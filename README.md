@@ -1,4 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="ru" data-id="a/cqBLvp0" data-context="false" ><a href="//imgur.com/a/cqBLvp0"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="ru" data-id="a/cqBLvp0" data-context="false" ><a href="//imgur.com/a/cqBLvp0"></a></blockquote><script async src="[//s.imgur.com/min/embed.js](https://i.imgur.com/KNiJihC.png)" charset="utf-8"></script>
 
 Nuclear Pickle - это активно модифицируемый и основывающийся форк от всем изестного репозитория CorvaxGoob.
 
