@@ -23,8 +23,10 @@
     Head: MobGingerbreadHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
-    Underwear: MobHumanoidAnyMarking
-    Undershirt: MobHumanoidAnyMarking
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear: MobHumanoidAnyMarking
+#    Undershirt: MobHumanoidAnyMarking
+# Nuclear-End
     Chest: MobGingerbreadChest
     Groin: MobGingerbreadGroin
     Eyes: MobGingerbreadEyes

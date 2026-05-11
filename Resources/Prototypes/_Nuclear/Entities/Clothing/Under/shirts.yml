@@ -1,0 +1,40 @@
+- type: entity
+  abstract: true
+  description: To go under your shirt.
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderShirtBase
+  components:
+  - type: Clothing
+    slots: [undershirt]
+  - type: NudityCheck
+    coversChest: true
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBra
+  name: bra
+  description: "A bra providing a little lift."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Bra/color.rsi
+    state: bra-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Bra/color.rsi
+    clothingVisuals:
+      undershirt:
+        - state: bra
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtTopSport
+  name: sports top
+  description: "A top made for intense physical activity."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Bra/color.rsi
+    state: sport-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Bra/color.rsi
+    clothingVisuals:
+      undershirt:
+        - state: sport

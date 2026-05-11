@@ -58,6 +58,20 @@ public sealed partial class InventoryComponent : Component
     [DataField, AutoNetworkedField]
     public Dictionary<string, DisplacementData> Displacements = new();
 
+    // Nuclear-Start: агрегированные списки блокировки/скрытия слотов
+    /// <summary>
+    /// Aggregated set of slot flags that are currently blocked by equipped items.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public HashSet<SlotFlags> BlockList = new();
+
+    /// <summary>
+    /// Aggregated set of slot flags that are currently hidden by equipped items.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public HashSet<SlotFlags> HideList = new();
+    // Nuclear-End
+
     /// <summary>
     /// Alternate displacement maps, which if available, will be selected for the player of the appropriate gender.
     /// </summary>

@@ -995,8 +995,10 @@ public partial class SharedBodySystem
         containerNames = partType switch
         {
             BodyPartType.Hand => ["gloves"],
-            BodyPartType.Foot => ["shoes"],
+            BodyPartType.Foot => ["shoes", "socks"], // Nuclear-Edit: "socks"
             BodyPartType.Head => ["eyes", "ears", "head", "mask"],
+            BodyPartType.Groin => ["underpants"], // Nuclear-Edit
+            BodyPartType.Chest => ["undershirt"], // Nuclear-Edit
             _ => [],
         };
         return containerNames.Count > 0;
@@ -1006,10 +1008,11 @@ public partial class SharedBodySystem
     {
         partType = slot switch
         {
-            "innerclothing" or "outerclothing" => BodyPartType.Chest,
+            "innerclothing" or "outerclothing" or "undershirt" => BodyPartType.Chest, // Nuclear-Edit: "undershirt"
             "gloves" => BodyPartType.Hand,
-            "shoes" => BodyPartType.Foot,
+            "shoes" or "socks" => BodyPartType.Foot, // Nuclear-Edit: "socks"
             "eyes" or "ears" or "head" or "mask" => BodyPartType.Head,
+            "underpants" => BodyPartType.Groin, // Nuclear-Edit
             _ => null,
         };
         return partType is not null;

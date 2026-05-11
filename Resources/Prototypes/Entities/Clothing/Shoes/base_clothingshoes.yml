@@ -55,6 +55,13 @@
       params:
         volume: -5
   # Goobstation edit end
+  # Nuclear edit start
+  - type: NudityCheck
+    coversSocks: true
+  - type: SlotBlock
+    blockList: [ SOCKS ]
+    hideList: [ SOCKS ]
+  # Nuclear edit end
   - type: Sprite
     state: icon
   - type: Item

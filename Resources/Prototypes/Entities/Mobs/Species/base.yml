@@ -271,11 +271,16 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-    - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370
-    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370
-    - map: ["jumpsuit"]
+#    - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370 | Nuclear-Edit: Replaced
+#    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370 | Nuclear-Edit: Replaced
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
+    # Nuclear-Add Start
+    - map: ["underpants"]
+    - map: ["undershirt"]
+    - map: ["socks"]
+    # Nuclear-Add End
+    - map: ["jumpsuit"] # Nuclear-Edit: Foots under jumpsuit
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Face"] #Goob 120 - why did we have face on dummy but not basespecies
@@ -399,6 +404,7 @@
     requiredLegs: 2
   - type: Identity
   - type: IdExaminable
+  - type: NudityExaminable # Nuclear - Nudity
   - type: Hands
   - type: ComplexInteraction
   - type: Internals
@@ -627,11 +633,16 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-    - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370
-    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370
-    - map: ["jumpsuit"]
+#    - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370 | Nuclear-Edit: Replaced
+#    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370 | Nuclear-Edit: Replaced
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
+    # Nuclear-Add Start
+    - map: ["underpants"]
+    - map: ["undershirt"]
+    - map: ["socks"]
+    # Nuclear-Add End
+    - map: ["jumpsuit"] # Nuclear-Edit: Foots under jumpsuit
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]

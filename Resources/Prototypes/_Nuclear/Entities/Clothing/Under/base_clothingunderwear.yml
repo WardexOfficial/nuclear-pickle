@@ -1,0 +1,51 @@
+- type: entity
+  abstract: true
+  description: Always nice to have something under your clothes, isn't it?
+  parent: Clothing
+  id: ClothingUnderwearBase
+  components:
+    - type: Sprite
+      state: icon    
+    - type: Clothing
+      equipSound:
+        collection: GenericEquip
+        params:
+          volume: -5
+    - type: Item
+      size: Small
+      storedRotation: -90
+      inhandVisuals:
+        left:
+        - state: inhand-left
+        right:
+        - state: inhand-right
+    - type: Food
+      requiresSpecialDigestion: true
+    - type: SolutionContainerManager
+      solutions:
+        food:
+          maxVol: 10
+          reagents:
+          - ReagentId: Fiber
+            Quantity: 10
+    - type: Tag
+      tags:
+      - ClothMade
+
+- type: entity
+  abstract: true
+  parent: ClothingUnderwearBase
+  id: ClothingUnderwearBaseButcherable
+  components:
+    - type: Butcherable
+      butcheringType: Knife
+      spawned:
+      - id: MaterialCloth1
+        amount: 1
+    - type: PhysicalComposition # 50% of the amount of cloth you'd obtain upon butchering
+      materialComposition:
+        Cloth: 30
+    - type: Tag
+      tags:
+      - ClothMade
+      - Recyclable

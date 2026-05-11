@@ -1,0 +1,1687 @@
+# Male #
+
+#Boxers
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorGrey
+  name: grey boxers
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorDarkGrey
+  name: dark grey boxers
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorBlack
+  name: black boxers
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorCyan
+  name: cyan boxers
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorBlue
+  name: blue boxers
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorDarkBlue
+  name: dark blue boxers
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorTeal
+  name: teal boxers
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorLightGreen
+  name: light green boxers
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorGreen
+  name: green boxers
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorDarkGreen
+  name: dark green boxers
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorOrange
+  name: orange boxers
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorPink
+  name: pink boxers
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorHotPink
+  name: hot pink boxers
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorRed
+  name: red boxers
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorYellow
+  name: yellow boxers
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorPurple
+  name: purple boxers
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorDarkPurple
+  name: dark purple boxers
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorLightBrown
+  name: light brown boxers
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorBrown
+  name: brown boxers
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderPantsBoxers
+  id: ClothingUnderPantsBoxersColorMaroon
+  name: maroon boxers
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: boxers
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"
+
+#Briefs
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorGrey
+  name: grey briefs
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorDarkGrey
+  name: dark grey briefs
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorBlack
+  name: black briefs
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorCyan
+  name: cyan briefs
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorBlue
+  name: blue briefs
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorDarkBlue
+  name: dark blue briefs
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorTeal
+  name: teal briefs
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorLightGreen
+  name: light green briefs
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorGreen
+  name: green briefs
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorDarkGreen
+  name: dark green briefs
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorOrange
+  name: orange briefs
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorPink
+  name: pink briefs
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorHotPink
+  name: hot pink briefs
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorRed
+  name: red briefs
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorYellow
+  name: yellow briefs
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorPurple
+  name: purple briefs
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorDarkPurple
+  name: dark purple briefs
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorLightBrown
+  name: light brown briefs
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorBrown
+  name: brown briefs
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderPantsBriefs
+  id: ClothingUnderPantsBriefsColorMaroon
+  name: maroon briefs
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: briefs
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"
+
+# Female #
+
+#Panties
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorGrey
+  name: grey panties
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorDarkGrey
+  name: dark grey panties
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorBlack
+  name: black panties
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorCyan
+  name: cyan panties
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorBlue
+  name: blue panties
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorDarkBlue
+  name: dark blue panties
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorTeal
+  name: teal panties
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorLightGreen
+  name: light green panties
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorGreen
+  name: green panties
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorDarkGreen
+  name: dark green panties
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorOrange
+  name: orange panties
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorPink
+  name: pink panties
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorHotPink
+  name: hot pink panties
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorRed
+  name: red panties
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorYellow
+  name: yellow panties
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorPurple
+  name: purple panties
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorDarkPurple
+  name: dark purple panties
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorLightBrown
+  name: light brown panties
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorBrown
+  name: brown panties
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderPantsPanties
+  id: ClothingUnderPantsPantiesColorMaroon
+  name: maroon panties
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: panties
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"
+
+#Sports
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorGrey
+  name: grey sports panties
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorDarkGrey
+  name: dark grey sports panties
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorBlack
+  name: black sports panties
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorCyan
+  name: cyan sports panties
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorBlue
+  name: blue sports panties
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorDarkBlue
+  name: dark blue sports panties
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorTeal
+  name: teal sports panties
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorLightGreen
+  name: light green sports panties
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorGreen
+  name: green sports panties
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorDarkGreen
+  name: dark green sports panties
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorOrange
+  name: orange sports panties
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorPink
+  name: pink sports panties
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorHotPink
+  name: hot pink sports panties
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorRed
+  name: red sports panties
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorYellow
+  name: yellow sports panties
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorPurple
+  name: purple sports panties
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorDarkPurple
+  name: dark purple sports panties
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorLightBrown
+  name: light brown sports panties
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorBrown
+  name: brown sports panties
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderPantsSport
+  id: ClothingUnderPantsSportColorMaroon
+  name: maroon sports panties
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      underpants:
+      - state: sport
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"

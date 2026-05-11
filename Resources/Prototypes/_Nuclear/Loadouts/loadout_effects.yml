@@ -1,0 +1,36 @@
+- type: loadoutEffectGroup
+  id: Female
+  effects:
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+    - Unsexed
+
+- type: loadoutEffectGroup
+  id: Male
+  effects:
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+    - Unsexed
+
+- type: loadoutEffectGroup
+  id: Underwear
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Human
+    - Arachnid
+    - Dwarf
+    - Moth
+    - Reptilian
+    - SlimePerson
+    - Chitinid
+    - Feroxi
+    - Harpy
+    - Rodentia
+    - Vulpkanin
+    - Shadowkin
+    - Tajaran
+    - Felinid
+    - Oni

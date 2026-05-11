@@ -16,7 +16,6 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using System.Linq;
 
 namespace Content.Client.Lobby.UI.Loadouts;
 
@@ -98,86 +97,113 @@ public sealed partial class LoadoutGroupContainer : BoxContainer
         //var validProtos = _groupProto.Loadouts.Select(id => protoMan.Index(id));
 
         /*
-         * Group the prototypes based on their GroupBy field.
-         * - If GroupBy is null or empty, fallback to grouping by the prototype ID itself.
-         * - The result is a dictionary where:
-         *   - The key is either GroupBy or ID (if GroupBy is not set).
-         *   - The value is the list of prototypes that belong to that group.
+         * Nuclear-LoadoutGroupTree:
+         * Loadouts are now grouped hierarchically based on the GroupBy list in LoadoutPrototype.
+         * Each element in GroupBy represents one level of nesting.
+         * For example, GroupBy: ["female", "color"] creates:
+         *   ▼ female
+         *     ▼ color
+         *       [loadout items]
          *
-         * This allows grouping loadouts into sub-categories within the group.
+         * If GroupBy is empty, the loadout is added directly without a subgroup.
+         * For backwards compatibility, a single string (old format) is converted to a list of one element.
+         *
+         * The recursive BuildGroupTree method handles all nesting levels,
+         * creating collapsible subgroups with toggle buttons at each level.
          */
-        var groups = validProtos
-        .GroupBy(p => string.IsNullOrEmpty(p.GroupBy)
-                         ? p.ID
-                         : p.GroupBy)
-        .ToDictionary(g => g.Key, g => g.ToList());
 
-        foreach (var kvp in groups)
+        // Nuclear-LoadoutGroupTree-Start
+        var validProtosList = validProtos.ToList();
+        BuildGroupTree(LoadoutsContainer, validProtosList, 0, profile, loadout, session, collection, loadoutSystem);
+        // Nuclear-LoadoutGroupTree-End
+    }
+
+    // Nuclear-LoadoutGroupTree-Start
+    /// <summary>
+    /// Recursively builds a tree of loadout groups based on the GroupBy list.
+    /// Each level of GroupBy creates a nested collapsible subgroup.
+    /// When no more GroupBy levels remain, items are added directly.
+    /// </summary>
+    private void BuildGroupTree(
+        BoxContainer parent,
+        List<LoadoutPrototype> protos,
+        int level,
+        HumanoidCharacterProfile profile,
+        RoleLoadout loadout,
+        ICommonSession session,
+        IDependencyCollection collection,
+        LoadoutSystem loadoutSystem)
+    {
+        var protoMan = collection.Resolve<IPrototypeManager>();
+
+        // Group by the key at the current level, or by ID if no more keys
+        var groups = protos
+            .GroupBy(p => level < p.GroupBy.Count ? p.GroupBy[level] : p.ID)
+            .ToDictionary(g => g.Key, g => g.ToList());
+
+        foreach (var (groupKey, groupProtos) in groups)
         {
-            var protos = kvp.Value;
+            var firstProto = groupProtos[0];
+            var remainingProtos = groupProtos.Skip(1).ToList();
 
-            if (protos.Count > 1)
+            // Nuclear-LoadoutGroupTree: single item with no more sub-levels — just a button
+            if (remainingProtos.Count == 0 && level >= firstProto.GroupBy.Count)
             {
-                /*
-                 * Build the list of UI elements for each loadout prototype:
-                 * - For each prototype, create its corresponding LoadoutContainer UI element.
-                 * - Set HorizontalExpand to true so elements properly stretch in layout.
-                 * - Collect all UI elements into a list for further processing.
-                 */
-                var uiElements = protos
-                    .Select(proto =>
-                    {
-                        var elem = CreateLoadoutUI(proto, profile, loadout, session, collection, loadoutSystem);
-                        elem.HorizontalExpand = true;
-                        return elem;
-                    })
-                    .ToList();
+                parent.AddChild(CreateLoadoutUI(firstProto, profile, loadout, session, collection, loadoutSystem));
+                continue;
+            }
 
-                /*
-                * Determine which element should be displayed first:
-                * - If any element is currently selected (its button is pressed), use it.
-                * - Otherwise, fallback to the first element in the list.
-                *
-                * This moves the selected item outside of the sublist for better usability,
-                * making it easier for players to quickly toggle loadout options (e.g. clothing, accessories)
-                * without having to search inside expanded subgroups.
-                */
-                var firstElement = uiElements.FirstOrDefault(e => e.Select.Pressed) ?? uiElements[0];
+            // Nuclear-LoadoutGroupTree: create a collapsible group with toggle button
+            var firstElement = CreateLoadoutUI(firstProto, profile, loadout, session, collection, loadoutSystem);
+            firstElement.HorizontalExpand = true;
 
-                /*
-                 * Get all remaining elements except the first one:
-                 * - Use ReferenceEquals to ensure we exclude the exact instance used as firstElement.
-                 */
-                var otherElements = uiElements.Where(e => !ReferenceEquals(e, firstElement)).ToList();
+            var subContainer = new SubLoadoutContainer
+            {
+                Name = groupKey,
+                Visible = _openedGroups.GetValueOrDefault(groupKey, false)
+            };
 
-                firstElement.HorizontalExpand = true;
-                var subContainer = new SubLoadoutContainer()
-                {
-                    Visible = _openedGroups.GetValueOrDefault(kvp.Key, false)
-                };
-                var toggle = CreateToggleButton(kvp, firstElement, subContainer);
+            var toggle = new ToggleLoadoutButton
+            {
+                Text = subContainer.Visible ? OpenedGroupMark : ClosedGroupMark,
+                Pressed = subContainer.Visible
+            };
 
-                LoadoutsContainer.AddChild(firstElement);
-                LoadoutsContainer.AddChild(subContainer);
+            toggle.OnPressed += _ =>
+            {
+                var willOpen = !subContainer.Visible;
+                subContainer.Visible = willOpen;
+                toggle.Text = willOpen ? OpenedGroupMark : ClosedGroupMark;
+                toggle.Pressed = willOpen;
+                _openedGroups[groupKey] = willOpen;
+            };
 
-                var subList = subContainer.Grid;
-                foreach (var proto in otherElements)
-                {
-                    subList.AddChild(proto);
-                }
-                var itemName = firstElement.Text ?? "";
-                UpdateSubGroupSelectedInfo(firstElement, itemName, subList);
+            firstElement.AddChild(toggle);
+            toggle.SetPositionFirst();
+
+            parent.AddChild(firstElement);
+            parent.AddChild(subContainer);
+
+            // Nuclear-LoadoutGroupTree: add remaining items to the subgroup
+            // If items have another GroupBy level, nest them deeper; otherwise add flat
+            if (remainingProtos.Any(p => level + 1 < p.GroupBy.Count))
+            {
+                BuildGroupTree(subContainer.Grid, remainingProtos, level + 1, profile, loadout, session, collection, loadoutSystem);
             }
             else
             {
-                LoadoutsContainer.AddChild(
-                    CreateLoadoutUI(protos[0], profile, loadout, session, collection, loadoutSystem)
-                );
+                foreach (var proto in remainingProtos)
+                {
+                    subContainer.Grid.AddChild(CreateLoadoutUI(proto, profile, loadout, session, collection, loadoutSystem));
+                }
             }
         }
     }
+    // Nuclear-LoadoutGroupTree-End
 
-    private ToggleLoadoutButton CreateToggleButton(KeyValuePair<string, List<LoadoutPrototype>> kvp, LoadoutContainer firstElement, SubLoadoutContainer subContainer)
+    // Nuclear-Edit-Start
+    // CreateToggleButton removed — logic has been moved to BuildGroupTree
+    /*private ToggleLoadoutButton CreateToggleButton(KeyValuePair<string, List<LoadoutPrototype>> kvp, LoadoutContainer firstElement, SubLoadoutContainer subContainer)
     {
         var toggle = new ToggleLoadoutButton
         {
@@ -199,9 +225,10 @@ public sealed partial class LoadoutGroupContainer : BoxContainer
         firstElement.AddChild(toggle);
         toggle.SetPositionFirst();
         return toggle;
-    }
+    }*/
 
-    private void UpdateSubGroupSelectedInfo(LoadoutContainer loadout, string itemName, BoxContainer subList)
+    // UpdateSubGroupSelectedInfo removed — logic has been moved to BuildGroupTree
+    /*private void UpdateSubGroupSelectedInfo(LoadoutContainer loadout, string itemName, BoxContainer subList)
     {
         var countSubSelected = subList.Children
             .OfType<LoadoutContainer>()
@@ -211,7 +238,8 @@ public sealed partial class LoadoutGroupContainer : BoxContainer
         {
             loadout.Text = Loc.GetString("loadouts-count-items-in-group", ("item", itemName), ("count", countSubSelected));
         }
-    }
+    }*/
+    // Nuclear-Edit-End
 
     /// <summary>
     /// Creates a UI container for a single Loadout item.

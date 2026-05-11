@@ -156,6 +156,8 @@
       Male: UnisexVox
       Female: UnisexVox
       Unsexed: UnisexVox
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -248,6 +250,7 @@
             sprite: Mobs/Species/Vox/displacement.rsi
             state: hair
   - type: Inventory
+    templateId: nonunderwear # Nuclear-Edit
     speciesId: vox
     displacements:
       jumpsuit:

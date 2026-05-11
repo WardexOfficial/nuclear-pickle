@@ -20,6 +20,7 @@ using Robust.Client.Utility;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Direction = Robust.Shared.Maths.Direction;
+using Content.Client._Nuclear.Lobby;
 
 namespace Content.Client._Shitcode.Wizard.MagicMirror;
 
@@ -371,7 +372,8 @@ public sealed partial class WizardMirrorWindow : DefaultWindow
         if (Profile == null || !_prototypeManager.HasIndex(Profile.Species))
             return;
 
-        PreviewDummy = _controller.LoadProfileEntity(Profile, null, false);
+        // Nuclear-Edit: bool false -> ClothingDisplayMode.HideAll
+        PreviewDummy = _controller.LoadProfileEntity(Profile, null, ClothingDisplayMode.HideAll);
         SpriteView.SetEntity(PreviewDummy);
         _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, Profile.Name);
 

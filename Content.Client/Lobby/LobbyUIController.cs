@@ -108,6 +108,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Client._Nuclear.Lobby;
 
 namespace Content.Client.Lobby;
 
@@ -270,7 +271,8 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
             return;
         }
 
-        var dummy = LoadProfileEntity(humanoid, null, true);
+        // Nuclear-Edit: bool true -> ClothingDisplayMode.ShowAll
+        var dummy = LoadProfileEntity(humanoid, null, ClothingDisplayMode.ShowAll);
         PreviewPanel.SetSprite(dummy);
         PreviewPanel.SetSummaryText(humanoid.Summary);
     }
@@ -414,15 +416,15 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     /// <summary>
     /// Applies the highest priority job's clothes to the dummy.
     /// </summary>
-    public void GiveDummyJobClothesLoadout(EntityUid dummy, JobPrototype? jobProto, HumanoidCharacterProfile profile)
+    public void GiveDummyJobClothesLoadout(EntityUid dummy, JobPrototype? jobProto, HumanoidCharacterProfile profile, ClothingDisplayMode clothingMode = ClothingDisplayMode.ShowAll)
     {
         var job = jobProto ?? GetPreferredJob(profile);
-        GiveDummyJobClothes(dummy, profile, job);
+        GiveDummyJobClothes(dummy, profile, job, clothingMode);
 
         if (_prototypeManager.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)))
         {
             var loadout = profile.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, profile.Species, EntityManager, _prototypeManager);
-            GiveDummyLoadout(dummy, loadout);
+            GiveDummyLoadout(dummy, loadout, clothingMode);
         }
     }
 
@@ -436,7 +438,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         return _prototypeManager.Index<JobPrototype>(highPriorityJob.Id ?? SharedGameTicker.FallbackOverflowJob);
     }
 
-    public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout)
+    public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout, ClothingDisplayMode clothingMode = ClothingDisplayMode.ShowAll)
     {
         if (roleLoadout == null)
             return;
@@ -448,7 +450,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
                 if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto))
                     continue;
 
-                _spawn.EquipStartingGear(uid, loadoutProto);
+                _spawn.EquipStartingGear(uid, loadoutProto, clothingMode != ClothingDisplayMode.HideAll);
             }
         }
     }
@@ -456,7 +458,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     /// <summary>
     /// Applies the specified job's clothes to the dummy.
     /// </summary>
-    public void GiveDummyJobClothes(EntityUid dummy, HumanoidCharacterProfile profile, JobPrototype job)
+    public void GiveDummyJobClothes(EntityUid dummy, HumanoidCharacterProfile profile, JobPrototype job, ClothingDisplayMode clothingMode = ClothingDisplayMode.ShowAll)
     {
         if (!_inventory.TryGetSlots(dummy, out var slots))
             return;
@@ -533,12 +535,12 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     /// <summary>
     /// Loads the profile onto a dummy entity.
     /// </summary>
-    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, bool jobClothes)
+    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, ClothingDisplayMode clothingMode)
     {
         EntityUid dummyEnt;
 
         EntProtoId? previewEntity = null;
-        if (humanoid != null && jobClothes)
+        if (humanoid != null && clothingMode != ClothingDisplayMode.HideAll)
         {
             job ??= GetPreferredJob(humanoid);
 
@@ -563,18 +565,38 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
 
         _humanoid.LoadProfile(dummyEnt, humanoid);
 
-        if (humanoid != null && jobClothes)
+        if (humanoid != null && clothingMode != ClothingDisplayMode.HideAll)
         {
             DebugTools.Assert(job != null);
 
-            GiveDummyJobClothes(dummyEnt, humanoid, job);
+            GiveDummyJobClothes(dummyEnt, humanoid, job, clothingMode);
 
             if (_prototypeManager.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)))
             {
                 var loadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntityManager, _prototypeManager);
-                GiveDummyLoadout(dummyEnt, loadout);
+                GiveDummyLoadout(dummyEnt, loadout, clothingMode);
             }
         }
+
+        // Nuclear-Edit Start: remove all unnecessar for "underwear only"
+        if (clothingMode == ClothingDisplayMode.ShowUnderwearOnly)
+        {
+            if (_inventory.TryGetSlots(dummyEnt, out var allSlots))
+            {
+                foreach (var slot in allSlots)
+                {
+                    if (slot.Name is "undershirt" or "underpants" or "socks")
+                        continue;
+
+                    if (_inventory.TryGetSlotEntity(dummyEnt, slot.Name, out var item))
+                    {
+                        _inventory.TryUnequip(dummyEnt, slot.Name, out _, silent: true, force: true, reparent: false);
+                        EntityManager.DeleteEntity(item.Value);
+                    }
+                }
+            }
+        }
+        // Nuclear-Edit End
 
         return dummyEnt;
     }

@@ -120,6 +120,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Shared._Nuclear.Ghosts;
 
 namespace Content.Shared.Inventory;
 
@@ -153,6 +154,30 @@ public abstract partial class InventorySystem
         if (!TryGetSlot(uid, args.Container.ID, out var slotDef, inventory: component))
             return;
 
+        // Nuclear-Start
+        var currentSlotBlockComponent = CompOrNull<SlotBlockComponent>(args.Entity);
+        if (currentSlotBlockComponent != null)
+        {
+            var slotsToUnblock = new HashSet<SlotFlags>(currentSlotBlockComponent.BlockList);
+            var slotsToUnhide = new HashSet<SlotFlags>(currentSlotBlockComponent.HideList);
+
+            foreach (var equipContainer in component.Containers)
+            {
+                if (equipContainer == args.Container) continue;
+
+                var slotBlockComponent = CompOrNull<SlotBlockComponent>(equipContainer.ContainedEntity);
+                if (slotBlockComponent == null) continue;
+
+                slotsToUnblock.ExceptWith(slotBlockComponent.BlockList);
+                slotsToUnhide.ExceptWith(slotBlockComponent.BlockList);
+                slotsToUnhide.ExceptWith(slotBlockComponent.HideList);
+            }
+
+            component.BlockList.ExceptWith(slotsToUnblock);
+            component.HideList.ExceptWith(slotsToUnhide);
+        }
+        // Nuclear-End
+
         var unequippedEvent = new DidUnequipEvent(uid, args.Entity, slotDef);
         RaiseLocalEvent(uid, unequippedEvent, true);
 
@@ -164,6 +189,15 @@ public abstract partial class InventorySystem
     {
         if (!TryGetSlot(uid, args.Container.ID, out var slotDef, inventory: component))
             return;
+
+        // Nuclear-Start
+        var slotBlockComponent = CompOrNull<SlotBlockComponent>(args.Entity);
+        if (slotBlockComponent != null)
+        {
+            component.BlockList.UnionWith(slotBlockComponent.BlockList);
+            component.HideList.UnionWith(slotBlockComponent.HideList);
+        }
+        // Nuclear-End
 
         var equippedEvent = new DidEquipEvent(uid, args.Entity, slotDef);
         RaiseLocalEvent(uid, equippedEvent, true);
@@ -376,6 +410,19 @@ public abstract partial class InventorySystem
             reason = "interaction-system-user-interaction-cannot-reach";
             return false;
         }
+
+        // Nuclear-Start
+        var ignoreInventoryBlockComponent = CompOrNull<IgnoreInventoryBlockComponent>(actor);
+        if (ignoreInventoryBlockComponent != null && ignoreInventoryBlockComponent.IgnoreBlock) { }
+        else
+        {
+            if (inventory.BlockList.Contains(slotDefinition.SlotFlags))
+            {
+                reason = "inventory-component-can-equip-blocked-by-other-clothing";
+                return false;
+            }
+        }
+        // Nuclear-End
 
         if (_whitelistSystem.IsWhitelistFail(slotDefinition.Whitelist, itemUid) ||
             _whitelistSystem.IsBlacklistPass(slotDefinition.Blacklist, itemUid))
@@ -610,6 +657,19 @@ public abstract partial class InventorySystem
 
         if (!_containerSystem.CanRemove(itemUid, containerSlot))
             return false;
+
+        // Nuclear-Start
+        var ignoreInventoryBlockComponent = CompOrNull<IgnoreInventoryBlockComponent>(actor);
+        if (ignoreInventoryBlockComponent != null && ignoreInventoryBlockComponent.IgnoreBlock) { }
+        else
+        {
+            if (inventory.BlockList.Contains(slotDefinition.SlotFlags))
+            {
+                reason = "inventory-component-can-unequip-blocked-by-other-clothing";
+                return false;
+            }
+        }
+        // Nuclear-End
 
         // make sure the user can actually reach the target
         if (!CanAccess(actor, target, itemUid))

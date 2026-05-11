@@ -1,0 +1,1569 @@
+# You can create a YAML file adding new prototypes if you don't want to mess around with a thousand lines.
+
+# Short #
+
+- type: loadout
+  id: SocksShortWhite
+  equipment:
+    socks: ClothingUnderSocksShort
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortGrey
+  equipment:
+    socks: ClothingUnderSocksShortColorGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortDarkGrey
+  equipment:
+    socks: ClothingUnderSocksShortColorDarkGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortBlack
+  equipment:
+    socks: ClothingUnderSocksShortColorBlack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortCyan
+  equipment:
+    socks: ClothingUnderSocksShortColorCyan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortBlue
+  equipment:
+    socks: ClothingUnderSocksShortColorBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortDarkBlue
+  equipment:
+    socks: ClothingUnderSocksShortColorDarkBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortTeal
+  equipment:
+    socks: ClothingUnderSocksShortColorTeal
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortLightGreen
+  equipment:
+    socks: ClothingUnderSocksShortColorLightGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortGreen
+  equipment:
+    socks: ClothingUnderSocksShortColorGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortDarkGreen
+  equipment:
+    socks: ClothingUnderSocksShortColorDarkGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortOrange
+  equipment:
+    socks: ClothingUnderSocksShortColorOrange
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortPink
+  equipment:
+    socks: ClothingUnderSocksShortColorPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortHotPink
+  equipment:
+    socks: ClothingUnderSocksShortColorHotPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortRed
+  equipment:
+    socks: ClothingUnderSocksShortColorRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortYellow
+  equipment:
+    socks: ClothingUnderSocksShortColorYellow
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortPurple
+  equipment:
+    socks: ClothingUnderSocksShortColorPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortDarkPurple
+  equipment:
+    socks: ClothingUnderSocksShortColorDarkPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortLightBrown
+  equipment:
+    socks: ClothingUnderSocksShortColorLightBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortBrown
+  equipment:
+    socks: ClothingUnderSocksShortColorBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+- type: loadout
+  id: SocksShortMaroon
+  equipment:
+    socks: ClothingUnderSocksShortColorMaroon
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - short
+
+# Normal #
+
+- type: loadout
+  id: SocksWhite
+  equipment:
+    socks: ClothingUnderSocksNormal
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+
+- type: loadout
+  id: SocksBlack
+  equipment:
+    socks: ClothingUnderSocksNormalColorBlack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksDarkGrey
+  equipment:
+    socks: ClothingUnderSocksNormalColorDarkGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksGrey
+  equipment:
+    socks: ClothingUnderSocksNormalColorGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksCyan
+  equipment:
+    socks: ClothingUnderSocksNormalColorCyan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksBlue
+  equipment:
+    socks: ClothingUnderSocksNormalColorBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksDarkBlue
+  equipment:
+    socks: ClothingUnderSocksNormalColorDarkBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksTeal
+  equipment:
+    socks: ClothingUnderSocksNormalColorTeal
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksLightGreen
+  equipment:
+    socks: ClothingUnderSocksNormalColorLightGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksGreen
+  equipment:
+    socks: ClothingUnderSocksNormalColorGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksDarkGreen
+  equipment:
+    socks: ClothingUnderSocksNormalColorDarkGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksOrange
+  equipment:
+    socks: ClothingUnderSocksNormalColorOrange
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksPink
+  equipment:
+    socks: ClothingUnderSocksNormalColorPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksHotPink
+  equipment:
+    socks: ClothingUnderSocksNormalColorHotPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksRed
+  equipment:
+    socks: ClothingUnderSocksNormalColorRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksYellow
+  equipment:
+    socks: ClothingUnderSocksNormalColorYellow
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksPurple
+  equipment:
+    socks: ClothingUnderSocksNormalColorPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksDarkPurple
+  equipment:
+    socks: ClothingUnderSocksNormalColorDarkPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksLightBrown
+  equipment:
+    socks: ClothingUnderSocksNormalColorLightBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksBrown
+  equipment:
+    socks: ClothingUnderSocksNormalColorBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksMaroon
+  equipment:
+    socks: ClothingUnderSocksNormalColorMaroon
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - color
+
+- type: loadout
+  id: SocksStripedBlackWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedBlackWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedDarkGreyWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedDarkGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedGreyWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedCyanWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedCyanWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedBlueWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedDarkBlueWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedDarkBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedTealWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedTealWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedLightGreenWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedLightGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedGreenWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedDarkGreenWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedDarkGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedOrangeWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedOrangeWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedPinkWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedHotPinkWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedHotPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedRedWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedRedWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedYellowWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedYellowWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedDarkPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedDarkPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedLightBrownWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedLightBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedBrownWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+- type: loadout
+  id: SocksStripedMaroonWhite
+  equipment:
+    socks: ClothingUnderSocksNormalStripedMaroonWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - normal
+  - stripe
+
+# Knee-highs #
+
+- type: loadout
+  id: StockingsKneeWhite
+  equipment:
+    socks: ClothingUnderSocksKnee
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+
+- type: loadout
+  id: StockingsKneeBlack
+  equipment:
+    socks: ClothingUnderSocksKneeColorBlack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeDarkGrey
+  equipment:
+    socks: ClothingUnderSocksKneeColorDarkGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeGrey
+  equipment:
+    socks: ClothingUnderSocksKneeColorGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeCyan
+  equipment:
+    socks: ClothingUnderSocksKneeColorCyan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeBlue
+  equipment:
+    socks: ClothingUnderSocksKneeColorBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeDarkBlue
+  equipment:
+    socks: ClothingUnderSocksKneeColorDarkBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeTeal
+  equipment:
+    socks: ClothingUnderSocksKneeColorTeal
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeLightGreen
+  equipment:
+    socks: ClothingUnderSocksKneeColorLightGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeGreen
+  equipment:
+    socks: ClothingUnderSocksKneeColorGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeDarkGreen
+  equipment:
+    socks: ClothingUnderSocksKneeColorDarkGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeOrange
+  equipment:
+    socks: ClothingUnderSocksKneeColorOrange
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneePink
+  equipment:
+    socks: ClothingUnderSocksKneeColorPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeHotPink
+  equipment:
+    socks: ClothingUnderSocksKneeColorHotPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeRed
+  equipment:
+    socks: ClothingUnderSocksKneeColorRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeYellow
+  equipment:
+    socks: ClothingUnderSocksKneeColorYellow
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneePurple
+  equipment:
+    socks: ClothingUnderSocksKneeColorPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeDarkPurple
+  equipment:
+    socks: ClothingUnderSocksKneeColorDarkPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeLightBrown
+  equipment:
+    socks: ClothingUnderSocksKneeColorLightBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeBrown
+  equipment:
+    socks: ClothingUnderSocksKneeColorBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeMaroon
+  equipment:
+    socks: ClothingUnderSocksKneeColorMaroon
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - color
+
+- type: loadout
+  id: StockingsKneeStripedBlackWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedBlackWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedDarkGreyWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedDarkGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedGreyWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedCyanWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedCyanWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedBlueWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedDarkBlueWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedDarkBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedTealWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedTealWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedLightGreenWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedLightGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedGreenWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedDarkGreenWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedDarkGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedOrangeWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedOrangeWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedPinkWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedHotPinkWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedHotPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedRedWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedRedWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedYellowWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedYellowWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedDarkPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedDarkPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedLightBrownWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedLightBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedBrownWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+- type: loadout
+  id: StockingsKneeStripedMaroonWhite
+  equipment:
+    socks: ClothingUnderSocksKneeStripedMaroonWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - knee
+  - stripe
+
+# Thigh-highs #
+
+- type: loadout
+  id: StockingsWhite
+  equipment:
+    socks: ClothingUnderSocksThigh
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+
+- type: loadout
+  id: StockingsBlack
+  equipment:
+    socks: ClothingUnderSocksThighColorBlack
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsDarkGrey
+  equipment:
+    socks: ClothingUnderSocksThighColorDarkGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsGrey
+  equipment:
+    socks: ClothingUnderSocksThighColorGrey
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsCyan
+  equipment:
+    socks: ClothingUnderSocksThighColorCyan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsBlue
+  equipment:
+    socks: ClothingUnderSocksThighColorBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsDarkBlue
+  equipment:
+    socks: ClothingUnderSocksThighColorDarkBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsTeal
+  equipment:
+    socks: ClothingUnderSocksThighColorTeal
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsLightGreen
+  equipment:
+    socks: ClothingUnderSocksThighColorLightGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsGreen
+  equipment:
+    socks: ClothingUnderSocksThighColorGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsDarkGreen
+  equipment:
+    socks: ClothingUnderSocksThighColorDarkGreen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsOrange
+  equipment:
+    socks: ClothingUnderSocksThighColorOrange
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsPink
+  equipment:
+    socks: ClothingUnderSocksThighColorPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsHotPink
+  equipment:
+    socks: ClothingUnderSocksThighColorHotPink
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsRed
+  equipment:
+    socks: ClothingUnderSocksThighColorRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsYellow
+  equipment:
+    socks: ClothingUnderSocksThighColorYellow
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsPurple
+  equipment:
+    socks: ClothingUnderSocksThighColorPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsDarkPurple
+  equipment:
+    socks: ClothingUnderSocksThighColorDarkPurple
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsLightBrown
+  equipment:
+    socks: ClothingUnderSocksThighColorLightBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsBrown
+  equipment:
+    socks: ClothingUnderSocksThighColorBrown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsMaroon
+  equipment:
+    socks: ClothingUnderSocksThighColorMaroon
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - color
+
+- type: loadout
+  id: StockingsStripedBlackWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedBlackWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedDarkGreyWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedDarkGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedGreyWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedGreyWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedCyanWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedCyanWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedBlueWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedDarkBlueWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedDarkBlueWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedTealWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedTealWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedLightGreenWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedLightGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedGreenWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedDarkGreenWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedDarkGreenWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedOrangeWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedOrangeWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedPinkWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedHotPinkWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedHotPinkWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedRedWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedRedWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedYellowWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedYellowWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedDarkPurpleWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedDarkPurpleWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedLightBrownWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedLightBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedBrownWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedBrownWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe
+
+- type: loadout
+  id: StockingsStripedMaroonWhite
+  equipment:
+    socks: ClothingUnderSocksThighStripedMaroonWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  groupBy:
+  - thigh
+  - stripe

@@ -1,0 +1,2 @@
+inventory-component-can-equip-blocked-by-other-clothing = You can't equip this because of other clothes!
+inventory-component-can-unequip-blocked-by-other-clothing = You can't unequip this because of other clothes!

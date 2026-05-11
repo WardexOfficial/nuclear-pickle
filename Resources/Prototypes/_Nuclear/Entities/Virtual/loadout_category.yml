@@ -1,0 +1,17 @@
+- type: entity
+  id: CategoryFemale
+  categories: [ HideSpawnMenu ]
+  name: Female
+  components:
+  - type: Sprite
+    texture: _Nuclear/Interface/loadout-category-female.png
+    scale: 0.3, 0.3
+
+- type: entity
+  id: CategoryMale
+  categories: [ HideSpawnMenu ]
+  name: Male
+  components:
+  - type: Sprite
+    texture: _Nuclear/Interface/loadout-category-male.png
+    scale: 0.3, 0.3

@@ -4,72 +4,74 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: marking
-  id: UnderwearDefault
-  bodyPart: Underwear
-  markingCategory: Underwear
-  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-  sprites:
-  - sprite: Mobs/Customization/underwear.rsi
-    state: boxers
+# Nuclear: Removed due to lack of need.
 
-- type: marking
-  id: UnderwearBriefs
-  bodyPart: Underwear
-  markingCategory: Underwear
-  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-  sprites:
-  - sprite: Mobs/Customization/underwear.rsi
-    state: briefs
+#- type: marking
+#  id: UnderwearDefault
+#  bodyPart: Underwear
+#  markingCategory: Underwear
+#  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#          color: "#FFFFFF"
+#  sprites:
+#  - sprite: Mobs/Customization/underwear.rsi
+#    state: boxers
 
-- type: marking
-  id: UnderwearLowriders
-  bodyPart: Underwear
-  markingCategory: Underwear
-  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-  sprites:
-  - sprite: Mobs/Customization/underwear.rsi
-    state: lowriders
+#- type: marking
+#  id: UnderwearBriefs
+#  bodyPart: Underwear
+#  markingCategory: Underwear
+#  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#          color: "#FFFFFF"
+#  sprites:
+#  - sprite: Mobs/Customization/underwear.rsi
+#    state: briefs
 
-- type: marking
-  id: UnderwearSatin
-  bodyPart: Underwear
-  markingCategory: Underwear
-  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-  sprites:
-  - sprite: Mobs/Customization/underwear.rsi
-    state: satin
+#- type: marking
+#  id: UnderwearLowriders
+#  bodyPart: Underwear
+#  markingCategory: Underwear
+#  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#          color: "#FFFFFF"
+#  sprites:
+#  - sprite: Mobs/Customization/underwear.rsi
+#    state: lowriders
 
-- type: marking
-  id: UnderwearTanga
-  bodyPart: Underwear
-  markingCategory: Underwear
-  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-  sprites:
-  - sprite: Mobs/Customization/underwear.rsi
-    state: tanga
+#- type: marking
+#  id: UnderwearSatin
+#  bodyPart: Underwear
+#  markingCategory: Underwear
+#  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#          color: "#FFFFFF"
+#  sprites:
+#  - sprite: Mobs/Customization/underwear.rsi
+#    state: satin
+
+#- type: marking
+#  id: UnderwearTanga
+#  bodyPart: Underwear
+#  markingCategory: Underwear
+#  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Diona, Moth, Harpy, Yowie] # goob edit - yowies
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#          color: "#FFFFFF"
+#  sprites:
+#  - sprite: Mobs/Customization/underwear.rsi
+#    state: tanga

@@ -79,6 +79,7 @@
 using Content.Shared.Preferences.Loadouts.Effects;
 using Content.Shared.Roles;
 using Robust.Shared.Prototypes;
+using Content.Shared._Nuclear.Preferences.Loadouts;
 
 namespace Content.Shared.Preferences.Loadouts;
 
@@ -91,11 +92,16 @@ public sealed partial class LoadoutPrototype : IPrototype, IEquipmentLoadout
     [IdDataField]
     public string ID { get; private set; } = string.Empty;
 
+    // Nuclear-Edit Start: GroupBy replaced with a hierarchical list with a serializer
     /// <summary>
-    /// A text identifier used to group loadouts.
+    /// Иерархический список ключей для группировки лоадаутов.
+    /// Каждый элемент — уровень вложенности: ["female", "color"] создаст Female > Color > [лоадауты].
+    /// Для обратной совместимости принимает как строку (groupBy: "jumpsuit"), так и список.
     /// </summary>
-    [DataField]
-    public string? GroupBy;
+    [DataField(customTypeSerializer: typeof(GroupBySerializer))]
+    public List<string> GroupBy = new();
+    // Nuclear-Edit End
+
     /*
      * You can either use an existing StartingGearPrototype or specify it inline to avoid bloating yaml.
      */

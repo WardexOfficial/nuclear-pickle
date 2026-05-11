@@ -95,6 +95,8 @@
           - MobLayer
   - type: TypingIndicator
     proto: gingerbread
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Inventory
     femaleDisplacements:
       jumpsuit:

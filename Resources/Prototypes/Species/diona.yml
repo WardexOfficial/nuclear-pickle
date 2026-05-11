@@ -38,8 +38,10 @@
     Head: MobDionaHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
-    Underwear: MobHumanoidAnyMarking
-    Undershirt: MobHumanoidAnyMarking
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear: MobHumanoidAnyMarking
+#    Undershirt: MobHumanoidAnyMarking
+# Nuclear-End
     Chest: MobDionaChest
     Groin: MobDionaGroin
     Eyes: MobDionaEyes
@@ -68,12 +70,14 @@
     Chest:
       points: 4
       required: false
-    Underwear:
-      points: 1
-      required: false
-    Undershirt:
-      points: 1
-      required: false
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear:
+#      points: 1
+#      required: false
+#    Undershirt:
+#      points: 1
+#      required: false
+# Nuclear-End
     RightLeg:
       points: 2
       required: false

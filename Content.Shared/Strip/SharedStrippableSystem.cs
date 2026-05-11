@@ -98,6 +98,7 @@ using Content.Shared.Popups;
 using Content.Shared.Strip.Components;
 using Content.Shared.Verbs;
 using Robust.Shared.Utility;
+using Content.Shared._Nuclear.Ghosts;
 
 namespace Content.Shared.Strip;
 
@@ -782,4 +783,20 @@ public abstract class SharedStrippableSystem : EntitySystem
 
         return !HasComp<BypassInteractionChecksComponent>(viewer);
     }
+
+    // Nuclear-Start: сhecking inventory ignore for A-ghost
+    /// <summary>
+    /// Returns [shouldShowBlocked, shouldShowHidden] for a given viewer.
+    /// If viewer has IgnoreInventoryBlockComponent with the appropriate flags,
+    /// blocked/hidden slots are revealed.
+    /// </summary>
+    public bool[] IsInventoryIgnored(EntityUid? viewer)
+    {
+        var ignoreComp = CompOrNull<IgnoreInventoryBlockComponent>(viewer);
+        if (ignoreComp == null)
+            return [false, false];
+
+        return [ignoreComp.IgnoreBlock, ignoreComp.ShowAllItems];
+    }
+    // Nuclear-End
 }

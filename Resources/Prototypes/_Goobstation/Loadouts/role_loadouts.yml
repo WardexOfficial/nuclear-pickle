@@ -102,6 +102,11 @@
   - NanotrasenRepresentativeBelt
   - NanotrasenRepresentativeGloves
   - Glasses
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -123,6 +128,11 @@
   - BlueshieldOfficerMask
   - BlueshieldOfficerShoes
   - BlueshieldOfficerGloves
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -144,6 +154,11 @@
   - NanotrasenTrainerShoes
   - NanotrasenTrainerGloves
   - NanotrasenTrainerBelt
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -175,6 +190,11 @@
   - RoboticistShoes
   - RoboticistPDA
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - GroupSpeciesBreathTool
   # Plasmaman
@@ -198,6 +218,11 @@
   - SecurityShoes
   - SecurityNeck
   - SurvivalSecurity
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - SecurityStar
@@ -215,6 +240,11 @@
   - RadiohostGlasses # CorvaxGoob-loadouts
   - CommonBackpack
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -269,6 +299,11 @@
    - MedicalShoes
    - VirologistPDA
    - SurvivalMedical
+   # Nuclear-Edit start
+   - UnderwearT
+   - UnderwearB
+   - UnderwearS
+   # Nuclear-Edit end
    - Trinkets
    - GroupSpeciesBreathToolMedical
    - VirologyEnvirohelm

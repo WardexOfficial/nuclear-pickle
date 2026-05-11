@@ -244,6 +244,7 @@
   - type: Stripping
   - type: SolutionScanner
   - type: IgnoreUIRange
+  - type: IgnoreInventoryBlock # Nuclear
   - type: ShowAntagIcons
   - type: ShowContrabandDetails
   - type: Inventory

@@ -104,6 +104,8 @@
       Male: UnisexPlasmaman
       Female: UnisexPlasmaman
       Unsexed: UnisexPlasmaman
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Butcherable
     butcheringType: Spike
     spawned:

@@ -137,11 +137,16 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "enum.HumanoidVisualLayers.Underwear" ]
-      - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
-      - map: ["jumpsuit"]
+#      - map: [ "enum.HumanoidVisualLayers.Underwear" ] Nuclear-Edit: Replaced
+#      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] Nuclear-Edit: Replaced
       - map: ["enum.HumanoidVisualLayers.LFoot"]
       - map: ["enum.HumanoidVisualLayers.RFoot"]
+      # Nuclear-Add Start
+      - map: ["underpants"]
+      - map: ["undershirt"]
+      - map: ["socks"]
+      # Nuclear-Add End
+      - map: [ "jumpsuit" ] # Nuclear-Edit: Foots under jumpsuit
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "enum.HumanoidVisualLayers.Face" ]

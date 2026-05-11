@@ -196,6 +196,8 @@ using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
 using Content.Client._CorvaxGoob.TTS;
 using Content.Shared._CorvaxGoob; // CorvaxGoob-TTS
+using Content.Client._Nuclear.Lobby;
+using Content.Client._Nuclear.Lobby.UI;
 
 namespace Content.Client.Lobby.UI
 {
@@ -266,6 +268,8 @@ namespace Content.Client.Lobby.UI
         private ColorSelectorSliders _rgbSkinColorSelector;
 
         private bool _isDirty;
+
+        private ClothingDisplayMode _clothingMode = ClothingDisplayMode.ShowAll; // Nuclear - clothing display mode
 
         private static readonly ProtoId<GuideEntryPrototype> DefaultSpeciesGuidebook = "Species";
 
@@ -652,8 +656,9 @@ namespace Content.Client.Lobby.UI
 
             #endregion Left
 
-            ShowClothes.OnToggled += args =>
+            ClothingDisplay.OnModeChanged += mode =>
             {
+                _clothingMode = mode; // Nuclear-Edit: clothing display mode
                 ReloadPreview();
             };
 
@@ -1028,7 +1033,7 @@ namespace Content.Client.Lobby.UI
             if (Profile == null || !_prototypeManager.HasIndex(Profile.Species))
                 return;
 
-            PreviewDummy = _controller.LoadProfileEntity(Profile, JobOverride, ShowClothes.Pressed);
+            PreviewDummy = _controller.LoadProfileEntity(Profile, JobOverride, _clothingMode);
             SpriteView.SetEntity(PreviewDummy);
             _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, Profile.Name);
 

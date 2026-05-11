@@ -17,6 +17,7 @@ using Robust.Client.Player;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
+using Content.Client._Nuclear.Lobby;
 
 namespace Content.Client._Shitcode.Heretic.UI;
 
@@ -59,7 +60,8 @@ public sealed class LivingHeartMenu : RadialMenu
         foreach (var target in heretic.SacrificeTargets)
         {
             if (!_ent.TryGetEntity(target.Entity, out var ent) || !_ent.EntityExists(ent))
-                ent = _controller.LoadProfileEntity(target.Profile, _prot.Index(target.Job), true);
+                // Nuclear-Edit: bool true -> ClothingDisplayMode.ShowAll
+                ent = _controller.LoadProfileEntity(target.Profile, _prot.Index(target.Job), ClothingDisplayMode.ShowAll);
 
             var button = new EmbeddedEntityMenuButton
             {

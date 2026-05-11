@@ -29,6 +29,8 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Bloodstream
     bloodReagent: Potassium
   - type: Inventory

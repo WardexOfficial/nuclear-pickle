@@ -3,7 +3,7 @@
 examine-name = Это [bold]{ $name }[/bold]!
 examine-name-selfaware = Это вы!
 examine-can-see = Смотря на { OBJECT($ent) }, вы можете видеть:
-examine-can-see-nothing = { CAPITALIZE(SUBJECT($ent)) } полностью без одежды!
+examine-can-see-nothing = [color = red][bold]{ CAPITALIZE(SUBJECT($ent)) } полностью без одежды[/bold]![/color]
 examine-border-line = ═════════════════════
 examine-present-tex = Это [enttex id="{ $id }" size={ $size }] [bold]{ $name }[/bold]!
 examine-present = Это [bold]{ $name }[/bold]!
@@ -78,7 +78,7 @@ id-card-examine-full = • { CAPITALIZE(POSS-ADJ($wearer)) } ID: [bold]{ $nameAn
 # Selfaware version
 
 examine-can-see-selfaware = Смотря на себя, вы можете увидеть:
-examine-can-see-nothing-selfaware = Вы абсолютно голые!
+examine-can-see-nothing-selfaware = [color = red][bold]Вы абсолютно голые[/bold]![/color]
 id-examine-selfaware =
     • { $id ->
         [empty] [bold]{ $item }[/bold]

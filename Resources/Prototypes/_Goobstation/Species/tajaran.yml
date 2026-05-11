@@ -57,12 +57,14 @@
     Chest:
       points: 10
       required: false
-    Underwear:
-      points: 1
-      required: false
-    Undershirt:
-      points: 1
-      required: false
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear:
+#      points: 1
+#      required: false
+#    Undershirt:
+#      points: 1
+#      required: false
+# Nuclear-End
     RightLeg:
       points: 2
       required: false

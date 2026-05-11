@@ -1,0 +1,507 @@
+# Classic #
+
+- type: loadout
+  id: BraClassicWhite
+  equipment:
+    undershirt: ClothingUnderShirtBra
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicBlack
+  equipment:
+    undershirt: ClothingUnderShirtBraColorBlack
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicDarkGrey
+  equipment:
+    undershirt: ClothingUnderShirtBraColorDarkGrey
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicGrey
+  equipment:
+    undershirt: ClothingUnderShirtBraColorGrey
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicCyan
+  equipment:
+    undershirt: ClothingUnderShirtBraColorCyan
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicBlue
+  equipment:
+    undershirt: ClothingUnderShirtBraColorBlue
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicDarkBlue
+  equipment:
+    undershirt: ClothingUnderShirtBraColorDarkBlue
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicTeal
+  equipment:
+    undershirt: ClothingUnderShirtBraColorTeal
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicLightGreen
+  equipment:
+    undershirt: ClothingUnderShirtBraColorLightGreen
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicGreen
+  equipment:
+    undershirt: ClothingUnderShirtBraColorGreen
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicDarkGreen
+  equipment:
+    undershirt: ClothingUnderShirtBraColorDarkGreen
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicOrange
+  equipment:
+    undershirt: ClothingUnderShirtBraColorOrange
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicPink
+  equipment:
+    undershirt: ClothingUnderShirtBraColorPink
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicHotPink
+  equipment:
+    undershirt: ClothingUnderShirtBraColorHotPink
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicRed
+  equipment:
+    undershirt: ClothingUnderShirtBraColorRed
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicYellow
+  equipment:
+    undershirt: ClothingUnderShirtBraColorYellow
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicPurple
+  equipment:
+    undershirt: ClothingUnderShirtBraColorPurple
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicDarkPurple
+  equipment:
+    undershirt: ClothingUnderShirtBraColorDarkPurple
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicLightBrown
+  equipment:
+    undershirt: ClothingUnderShirtBraColorLightBrown
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicBrown
+  equipment:
+    undershirt: ClothingUnderShirtBraColorBrown
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraClassicMaroon
+  equipment:
+    undershirt: ClothingUnderShirtBraColorMaroon
+  groupBy: [ classic ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+# Sport #
+
+- type: loadout
+  id: BraSportWhite
+  equipment:
+    undershirt: ClothingUnderShirtTopSport
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportBlack
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorBlack
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportDarkGrey
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorDarkGrey
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportGrey
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorGrey
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportCyan
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorCyan
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportBlue
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorBlue
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportDarkBlue
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorDarkBlue
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportTeal
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorTeal
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportLightGreen
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorLightGreen
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportGreen
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorGreen
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportDarkGreen
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorDarkGreen
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportOrange
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorOrange
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportPink
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorPink
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportHotPink
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorHotPink
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportRed
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorRed
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportYellow
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorYellow
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportPurple
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorPurple
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportDarkPurple
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorDarkPurple
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportLightBrown
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorLightBrown
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportBrown
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorBrown
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: BraSportMaroon
+  equipment:
+    undershirt: ClothingUnderShirtTopSportColorMaroon
+  groupBy: [ sport ]
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female

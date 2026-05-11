@@ -142,6 +142,8 @@
     understands:
     - TauCetiBasic
     - RootSpeak
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: BodyEmotes
     soundsId: DionaBodyEmotes
   - type: IgnoreKudzu

@@ -110,6 +110,8 @@
     - TauCetiBasic
     - Calcic
   - type: SkeletonAccent
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Fixtures
     fixtures:
       fix1:

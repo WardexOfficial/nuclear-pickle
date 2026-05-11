@@ -82,11 +82,16 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "jumpsuit" ]
-      - map: [ "enum.HumanoidVisualLayers.LHand" ]
-      - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      # Nuclear-Add Start
+      - map: ["underpants"]
+      - map: ["undershirt"]
+      - map: ["socks"]
+      # Nuclear-Add End
+      - map: [ "jumpsuit" ] # Nuclear-Edit: Layers tweaks
+      - map: [ "enum.HumanoidVisualLayers.LHand" ] # Nuclear-Edit: Layers tweaks
+      - map: [ "enum.HumanoidVisualLayers.RHand" ] # Nuclear-Edit: Layers tweaks
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi

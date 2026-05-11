@@ -40,8 +40,8 @@ namespace Content.Shared.Humanoid
         FacialHair,
         Face, // EE Plasmeme Port
         Chest,
-        Underwear,
-        Undershirt,
+//        Underwear, // Nuclear: Removed due to lack of need.
+//        Undershirt, // Nuclear: Removed due to lack of need.
         Groin,
         Head,
         Snout,

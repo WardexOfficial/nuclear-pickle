@@ -57,6 +57,7 @@ using Content.Shared.Input;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.VirtualItem;
 using Content.Shared.Strip.Components;
+using Content.Shared._Nuclear.Ghosts;
 using JetBrains.Annotations;
 using Robust.Client.GameObjects;
 using Robust.Client.Player;
@@ -90,8 +91,18 @@ namespace Content.Client.Inventory
         [ViewVariables]
         private StrippingMenu? _strippingMenu;
 
+        // Nuclear-Start
+        [ViewVariables]
+        public const string BlockedSlotEntityId = "BlockedSlotEntity";
+        // Nuclear-End
+
         [ViewVariables]
         private readonly EntityUid _virtualHiddenEntity;
+
+        // Nuclear-Start
+        [ViewVariables]
+        private readonly EntityUid _virtualBlockedEntity;
+        // Nuclear-End
 
         /// <summary>
         /// The current amount of added hand buttons.
@@ -114,6 +125,7 @@ namespace Content.Client.Inventory
             _strippable = EntMan.System<StrippableSystem>();
 
             _virtualHiddenEntity = EntMan.SpawnEntity(HiddenPocketEntityId, MapCoordinates.Nullspace);
+            _virtualBlockedEntity = EntMan.SpawnEntity(BlockedSlotEntityId, MapCoordinates.Nullspace); // Nuclear
         }
 
         protected override void Open()
@@ -296,6 +308,34 @@ namespace Content.Client.Inventory
 
             var button = new SlotButton(new SlotData(slotDef, container));
             button.Pressed += SlotPressed;
+
+            // Nuclear-Start: hiding/blocking slots via BlockList/HideList
+            var inventoryIgnored = _strippable.IsInventoryIgnored(_player.LocalEntity);
+            if (!inventoryIgnored[0])
+            {
+                foreach (var blockedSlot in inv.BlockList)
+                {
+                    if (blockedSlot != slotDef.SlotFlags)
+                        continue;
+
+                    entity = _virtualBlockedEntity;
+                    button.Blocked = true;
+                    break;
+                }
+            }
+
+            if (!inventoryIgnored[1])
+            {
+                foreach (var hidedSlot in inv.HideList)
+                {
+                    if (hidedSlot != slotDef.SlotFlags)
+                        continue;
+
+                    entity = _virtualBlockedEntity;
+                    break;
+                }
+            }
+            // Nuclear-End
 
             _strippingMenu!.InventoryContainer.AddChild(button);
 

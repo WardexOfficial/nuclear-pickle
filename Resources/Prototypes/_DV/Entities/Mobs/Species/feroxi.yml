@@ -50,13 +50,18 @@
         # its fine, but its still very stupid that it has to be done like this instead of allowing sprites to just directly insert a stencil clear.
         # sprite refactor when
         state: l_leg
-      - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120
-      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120
-      - map: [ "jumpsuit" ]
-      - map: [ "enum.HumanoidVisualLayers.LHand" ]
-      - map: [ "enum.HumanoidVisualLayers.RHand" ]
+#      - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120 | Nuclear-Edit: Replaced
+#      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120 | Nuclear-Edit: Replaced
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      # Nuclear-Add Start
+      - map: ["underpants"]
+      - map: ["undershirt"]
+      - map: ["socks"]
+      # Nuclear-Add End
+      - map: [ "jumpsuit" ] # Nuclear-Edit: Foots under jumpsuit | Jumpsuit under hands
+      - map: [ "enum.HumanoidVisualLayers.LHand" ]
+      - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -143,13 +148,18 @@
       # its fine, but its still very stupid that it has to be done like this instead of allowing sprites to just directly insert a stencil clear.
       # sprite refactor when
       state: l_leg
-    - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120
-    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120
-    - map: [ "jumpsuit" ]
-    - map: [ "enum.HumanoidVisualLayers.LHand" ]
-    - map: [ "enum.HumanoidVisualLayers.RHand" ]
+#     - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120 | Nuclear-Edit: Replaced
+#     - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120 | Nuclear-Edit: Replaced
     - map: [ "enum.HumanoidVisualLayers.LFoot" ]
     - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    # Nuclear-Add Start
+    - map: ["underpants"]
+    - map: ["undershirt"]
+    - map: ["socks"]
+    # Nuclear-Add End
+    - map: [ "jumpsuit" ] # Nuclear-Edit: Foots under jumpsuit | Jumpsuit under hands
+    - map: [ "enum.HumanoidVisualLayers.LHand" ]
+    - map: [ "enum.HumanoidVisualLayers.RHand" ]
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi

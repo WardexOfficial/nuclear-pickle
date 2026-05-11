@@ -228,6 +228,91 @@
     saturationLoss: 0.2
     maxSaturation: 30
     saturation: 30 #Goob Edit end
+  # ADT - displacement map start  
+  - type: Inventory
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: shoes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: hand
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: head
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: underweart
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: underwearb
+      socks:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: socks
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: shoes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: hand
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: head
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: underweart
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: underwearb
+      socks:
+        sizeMaps:
+          32:
+            sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+            state: socks
+  # ADT - displacement map end
 
 - type: entity
   save: false
@@ -296,3 +381,88 @@
         - map: ["pocket1"]
         - map: ["pocket2"]
         - map: ["enum.HumanoidVisualLayers.Tail"]
+    # ADT - displacement map start  
+    - type: Inventory
+      displacements:
+        jumpsuit:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: jumpsuit
+        shoes:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: shoes
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: hand
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: jumpsuit
+        head:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: head
+        undershirt:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: underweart
+        underpants:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: underwearb
+        socks:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: socks
+      femaleDisplacements:
+        jumpsuit:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: jumpsuit
+        shoes:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: shoes
+        gloves:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: hand
+        outerClothing:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: jumpsuit
+        head:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: head
+        undershirt:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: underweart
+        underpants:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: underwearb
+        socks:
+          sizeMaps:
+            32:
+              sprite: _ADT/Mobs/Species/Shadekin/displacement.rsi
+              state: socks
+    # ADT - displacement map end

@@ -1,0 +1,1181 @@
+# You can create a YAML file adding new prototypes if you don't want to mess around with a thousand lines.
+
+# Female #
+
+- type: loadout
+  id: PantiesWhite
+  equipment:
+    underpants: ClothingUnderPantsPanties
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesBlack
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorBlack
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesDarkGrey
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorDarkGrey
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesGrey
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorGrey
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesCyan
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorCyan
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesBlue
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorBlue
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesDarkBlue
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorDarkBlue
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesTeal
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorTeal
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesLightGreen
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorLightGreen
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesGreen
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorGreen
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesDarkGreen
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorDarkGreen
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesOrange
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorOrange
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesPink
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorPink
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesHotPink
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorHotPink
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesRed
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorRed
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesYellow
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorYellow
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesPurple
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorPurple
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesDarkPurple
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorDarkPurple
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesLightBrown
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorLightBrown
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesBrown
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorBrown
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: PantiesMaroon
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorMaroon
+  groupBy:
+  - female
+  - classicPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesWhite
+  equipment:
+    underpants: ClothingUnderPantsSport
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesBlack
+  equipment:
+    underpants: ClothingUnderPantsSportColorBlack
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesDarkGrey
+  equipment:
+    underpants: ClothingUnderPantsSportColorDarkGrey
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesGrey
+  equipment:
+    underpants: ClothingUnderPantsSportColorGrey
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesCyan
+  equipment:
+    underpants: ClothingUnderPantsSportColorCyan
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesBlue
+  equipment:
+    underpants: ClothingUnderPantsSportColorBlue
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesDarkBlue
+  equipment:
+    underpants: ClothingUnderPantsSportColorDarkBlue
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesTeal
+  equipment:
+    underpants: ClothingUnderPantsSportColorTeal
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesLightGreen
+  equipment:
+    underpants: ClothingUnderPantsSportColorLightGreen
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesGreen
+  equipment:
+    underpants: ClothingUnderPantsSportColorGreen
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesDarkGreen
+  equipment:
+    underpants: ClothingUnderPantsSportColorDarkGreen
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesOrange
+  equipment:
+    underpants: ClothingUnderPantsSportColorOrange
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesPink
+  equipment:
+    underpants: ClothingUnderPantsSportColorPink
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesHotPink
+  equipment:
+    underpants: ClothingUnderPantsSportColorHotPink
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesRed
+  equipment:
+    underpants: ClothingUnderPantsSportColorRed
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesYellow
+  equipment:
+    underpants: ClothingUnderPantsSportColorYellow
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesPurple
+  equipment:
+    underpants: ClothingUnderPantsSportColorPurple
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesDarkPurple
+  equipment:
+    underpants: ClothingUnderPantsSportColorDarkPurple
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesLightBrown
+  equipment:
+    underpants: ClothingUnderPantsSportColorLightBrown
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesBrown
+  equipment:
+    underpants: ClothingUnderPantsSportColorBrown
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+- type: loadout
+  id: SportyPantiesMaroon
+  equipment:
+    underpants: ClothingUnderPantsSportColorMaroon
+  groupBy:
+  - female
+  - sportyPanties
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Female
+
+# Male #
+
+- type: loadout
+  id: BoxersWhite
+  equipment:
+    underpants: ClothingUnderPantsBoxers
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersBlack
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorBlack
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersDarkGrey
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorDarkGrey
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersGrey
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorGrey
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersCyan
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorCyan
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersBlue
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorBlue
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersDarkBlue
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorDarkBlue
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersTeal
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorTeal
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersLightGreen
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorLightGreen
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersGreen
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorGreen
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersDarkGreen
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorDarkGreen
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersOrange
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorOrange
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersPink
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorPink
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersHotPink
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorHotPink
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersRed
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorRed
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersYellow
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorYellow
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersPurple
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorPurple
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersDarkPurple
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorDarkPurple
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersLightBrown
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorLightBrown
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersBrown
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorBrown
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BoxersMaroon
+  equipment:
+    underpants: ClothingUnderPantsBoxersColorMaroon
+  groupBy:
+  - male
+  - boxers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsWhite
+  equipment:
+    underpants: ClothingUnderPantsBriefs
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsBlack
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorBlack
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsDarkGrey
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorDarkGrey
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsGrey
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorGrey
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsCyan
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorCyan
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsBlue
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorBlue
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsDarkBlue
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorDarkBlue
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsTeal
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorTeal
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsLightGreen
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorLightGreen
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsGreen
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorGreen
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsDarkGreen
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorDarkGreen
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsOrange
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorOrange
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsPink
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorPink
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsHotPink
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorHotPink
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsRed
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorRed
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsYellow
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorYellow
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsPurple
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorPurple
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsDarkPurple
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorDarkPurple
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsLightBrown
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorLightBrown
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsBrown
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorBrown
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male
+
+- type: loadout
+  id: BriefsMaroon
+  equipment:
+    underpants: ClothingUnderPantsBriefsColorMaroon
+  groupBy:
+  - male
+  - briefs
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: Underwear
+  - !type:SexLoadoutEffect
+    sex:
+    - Male

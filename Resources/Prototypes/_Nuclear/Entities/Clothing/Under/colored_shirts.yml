@@ -1,0 +1,841 @@
+# Standart Bra
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorGrey
+  name: grey bra
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorDarkGrey
+  name: dark grey bra
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorBlack
+  name: black bra
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorCyan
+  name: cyan bra
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorBlue
+  name: blue bra
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorDarkBlue
+  name: dark blue bra
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorTeal
+  name: teal bra
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorLightGreen
+  name: light green bra
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorGreen
+  name: green bra
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorDarkGreen
+  name: dark green bra
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorOrange
+  name: orange bra
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorPink
+  name: pink bra
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorHotPink
+  name: hot pink bra
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorRed
+  name: red bra
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorYellow
+  name: yellow bra
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorPurple
+  name: purple bra
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorDarkPurple
+  name: dark purple bra
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorLightBrown
+  name: light brown bra
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorBrown
+  name: brown bra
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderShirtBra
+  id: ClothingUnderShirtBraColorMaroon
+  name: maroon bra
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: bra
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"
+
+# Sports Top
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorGrey
+  name: grey sports top
+  components:
+  - type: Sprite
+    color: "#b3b3b3"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#b3b3b3"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#b3b3b3"
+      right:
+      - state: inhand-right
+        color: "#b3b3b3"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorDarkGrey
+  name: dark grey sports top
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorBlack
+  name: black sports top
+  components:
+  - type: Sprite
+    color: "#3f3f3f"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#3f3f3f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorCyan
+  name: cyan sports top
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorBlue
+  name: blue sports top
+  components:
+  - type: Sprite
+    color: "#52aecc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#52aecc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#52aecc"
+      right:
+      - state: inhand-right
+        color: "#52aecc"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorDarkBlue
+  name: dark blue sports top
+  components:
+  - type: Sprite
+    color: "#3285ba"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#3285ba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3285ba"
+      right:
+      - state: inhand-right
+        color: "#3285ba"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorTeal
+  name: teal sports top
+  components:
+  - type: Sprite
+    color: "#77f3b7"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#77f3b7"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#77f3b7"
+      right:
+      - state: inhand-right
+        color: "#77f3b7"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorLightGreen
+  name: light green sports top
+  components:
+  - type: Sprite
+    color: "#9ed63a"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#9ed63a"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9ed63a"
+      right:
+      - state: inhand-right
+        color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorGreen
+  name: green sports top
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorDarkGreen
+  name: dark green sports top
+  components:
+  - type: Sprite
+    color: "#007923"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#007923"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#007923"
+      right:
+      - state: inhand-right
+        color: "#007923"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorOrange
+  name: orange sports top
+  components:
+  - type: Sprite
+    color: "#ff8c19"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#ff8c19"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ff8c19"
+      right:
+      - state: inhand-right
+        color: "#ff8c19"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorPink
+  name: pink sports top
+  components:
+  - type: Sprite
+    color: "#ffa69b"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#ffa69b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffa69b"
+      right:
+      - state: inhand-right
+        color: "#ffa69b"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorHotPink
+  name: hot pink sports top
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorRed
+  name: red sports top
+  components:
+  - type: Sprite
+    color: "#eb0c07"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#eb0c07"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#eb0c07"
+      right:
+      - state: inhand-right
+        color: "#eb0c07"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorYellow
+  name: yellow sports top
+  components:
+  - type: Sprite
+    color: "#ffe14d"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorPurple
+  name: purple sports top
+  components:
+  - type: Sprite
+    color: "#9f70cc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#9f70cc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9f70cc"
+      right:
+      - state: inhand-right
+        color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorDarkPurple
+  name: dark purple sports top
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorLightBrown
+  name: light brown sports top
+  components:
+  - type: Sprite
+    color: "#c59431"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#c59431"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#c59431"
+      right:
+      - state: inhand-right
+        color: "#c59431"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorBrown
+  name: brown sports top
+  components:
+  - type: Sprite
+    color: "#a17229"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#a17229"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#a17229"
+      right:
+      - state: inhand-right
+        color: "#a17229"
+
+- type: entity
+  parent: ClothingUnderShirtTopSport
+  id: ClothingUnderShirtTopSportColorMaroon
+  name: maroon sports top
+  components:
+  - type: Sprite
+    color: "#cc295f"
+  - type: Clothing
+    clothingVisuals:
+      undershirt:
+      - state: sport
+        color: "#cc295f"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#cc295f"
+      right:
+      - state: inhand-right
+        color: "#cc295f"

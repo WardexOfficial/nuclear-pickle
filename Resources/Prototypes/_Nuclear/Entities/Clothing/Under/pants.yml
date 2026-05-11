@@ -1,0 +1,74 @@
+- type: entity
+  abstract: true
+  description: Keep your private parts all cozy!
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderPantsBase
+  components:
+  - type: Clothing
+    slots: [underpants]
+  - type: NudityCheck
+    coversGroin: true
+
+# Male #
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsBoxers
+  name: boxers
+  description: "A pair of classic boxers, just as comfy as grandpa's."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
+    state: boxers-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
+    clothingVisuals:
+      underpants:
+      - state: boxers
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsBriefs
+  name: briefs
+  description: "A pair of briefs, for those who want a snug fit in all the right places."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
+    state: briefs-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
+    clothingVisuals:
+      underpants:
+      - state: briefs
+
+# Female #
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsPanties
+  name: panties
+  description: "A pair of regular panties, good old fashioned."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    state: panties-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    clothingVisuals:
+      underpants:
+      - state: panties
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsSport
+  name: sports panties
+  description: "A pair of sports panties, hugging your body without rubbing — perfect for jogging!" # Спортивные трусики, плотно облегают и не натирают - cамое то для пробежки!
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    state: sport-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    clothingVisuals:
+      underpants:
+      - state: sport

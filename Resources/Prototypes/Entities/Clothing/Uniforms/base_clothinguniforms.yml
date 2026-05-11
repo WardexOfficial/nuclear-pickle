@@ -50,6 +50,11 @@
     slots: [innerclothing]
     equipSound:
       path: /Audio/Items/jumpsuit_equip.ogg
+  # Nuclear edit start
+  - type: NudityCheck
+    coversChest: true
+    coversGroin: true
+  # Nuclear edit end
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -82,6 +87,11 @@
   - type: Clothing
     slots: [innerclothing]
     femaleMask: UniformTop
+  # Nuclear hide/block slots start
+  - type: SlotBlock
+    blockList: [ UNDERSHIRT ]
+    hideList: [ UNDERPANTS ]
+  # Nuclear hide/block slots end
 
 
 - type: entity
@@ -89,6 +99,11 @@
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformBase
   components:
+  # Nuclear hide/block slots start
+  - type: SlotBlock
+    blockList: [ UNDERSHIRT, UNDERPANTS ]
+    hideList: [ UNDERSHIRT, UNDERPANTS ]
+  # Nuclear hide/block slots end
   - type: SuitSensor
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -110,6 +125,11 @@
   - type: Clothing
     slots: [innerclothing]
     femaleMask: UniformTop
+  # Nuclear hide/block slots start
+  - type: SlotBlock
+    blockList: [ UNDERSHIRT ]
+    hideList: [ UNDERSHIRT, UNDERPANTS ]
+  # Nuclear hide/block slots end
   - type: Tag
     tags:
     - Skirt

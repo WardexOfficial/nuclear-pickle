@@ -1,0 +1,105 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "sprited by DimasKarabas2881 from github, palette antry colored by miroste3 from github",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "short-icon"
+        },
+        {
+            "name": "normal-icon"
+        },
+        {
+            "name": "stripe-a_normal-icon"
+        },
+        {
+            "name": "stripe-b_normal-icon"
+        },
+        {
+            "name": "knee-icon"
+        },
+        {
+            "name": "stripe-a_knee-icon"
+        },
+        {
+            "name": "stripe-b_knee-icon"
+        },
+        {
+            "name": "thigh-icon"
+        },
+        {
+            "name": "stripe-a_thigh-icon"
+        },
+        {
+            "name": "stripe-b_thigh-icon"
+        },
+        {
+            "name": "short",
+            "directions": 4
+        },
+        {
+            "name": "normal",
+            "directions": 4
+        },
+        {
+            "name": "stripe-a_normal",
+            "directions": 4
+        },
+        {
+            "name": "stripe-b_normal",
+            "directions": 4
+        },
+        {
+            "name": "knee",
+            "directions": 4
+        },
+        {
+            "name": "stripe-a_knee",
+            "directions": 4
+        },
+        {
+            "name": "stripe-b_knee",
+            "directions": 4
+        },
+        {
+            "name": "thigh",
+            "directions": 4
+        },
+        {
+            "name": "stripe-a_thigh",
+            "directions": 4
+        },
+        {
+            "name": "stripe-b_thigh",
+            "directions": 4
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "stripe-a_inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "stripe-b_inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "stripe-a_inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "stripe-b_inhand-right",
+            "directions": 4
+        }
+    ]
+}

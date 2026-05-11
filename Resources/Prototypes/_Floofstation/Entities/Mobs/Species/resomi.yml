@@ -51,6 +51,8 @@
     sprite: _Floofstation/Mobs/Effects/onfire.rsi
     normalState: Resomi_minor_burning
     alternateState: Resomi_burning
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: HumanoidAppearance
     species: Resomi
   - type: Icon
@@ -81,6 +83,7 @@
           sprite: _Floofstation/Mobs/Species/Resomi/displacement.rsi
           state: inHand
   - type: Inventory
+    templateId: nonunderwear # Nuclear-Edit
     speciesId: resomi
     displacements:
       jumpsuit:

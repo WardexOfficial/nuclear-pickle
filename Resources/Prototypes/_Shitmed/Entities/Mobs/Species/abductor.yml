@@ -47,6 +47,8 @@
     understands:
     - TauCetiBasic # Can understand, but cannot speak it.
     - Xeeplian
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Targeting
   - type: SurgeryTarget
   - type: Bloodstream
@@ -76,6 +78,23 @@
           32:
             sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
             state: jumpsuit
+      # Nuclear-Add: Underwear Start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: abductor-socks
+      # Nuclear-Add: Underwear End
   - type: OfferItem # CorvaxGoob-Offer
 
 - type: entity
@@ -123,3 +142,28 @@
   components:
   - type: HumanoidAppearance
     species: Abductor
+  - type: Inventory
+    speciesId: abductor
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      # Nuclear-Add: Underwear Start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: abductor-socks
+      # Nuclear-Add: Underwear End

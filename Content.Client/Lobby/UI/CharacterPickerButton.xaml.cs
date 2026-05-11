@@ -14,6 +14,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Content.Client._Nuclear.Lobby;
 
 namespace Content.Client.Lobby.UI;
 
@@ -53,7 +54,8 @@ public sealed partial class CharacterPickerButton : ContainerButton
         else
         {
             _previewDummy = UserInterfaceManager.GetUIController<LobbyUIController>()
-                .LoadProfileEntity(humanoid, null, true);
+                // Nuclear-Edit: bool true -> ClothingDisplayMode.ShowAll
+                .LoadProfileEntity(humanoid, null, ClothingDisplayMode.ShowAll);
 
             var highPriorityJob = humanoid.JobPriorities.SingleOrDefault(p => p.Value == JobPriority.High).Key;
             if (highPriorityJob != default)

@@ -1,0 +1,78 @@
+- type: entity
+  abstract: true
+  description: Did you know these things come in different colors??
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderSocksBase
+  components:  
+  - type: Clothing
+    slots: [socks]
+
+# Short #
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksShort
+  name: ankle socks
+  description: "A pair of short socks, perfect for when you want to show off your footwear."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    state: short-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    clothingVisuals:
+      socks:
+      - state: short
+
+# Normal #
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksNormal
+  name: socks
+  description: "A pair of basic socks, perfect for when you need to blend in with the crowd."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    state: normal-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    clothingVisuals:
+      socks:
+      - state: normal
+  - type: TemperatureProtection
+    coolingCoefficient: 0.95
+
+# Knee-highs #
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksKnee
+  name: knee-highs
+  description: "A pair of knee-highs, perfect for keeping your legs warm and looking stylish."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    state: knee-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    clothingVisuals:
+      socks:
+      - state: knee
+  - type: TemperatureProtection
+    coolingCoefficient: 0.9
+
+# Thigh-highs #
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThigh
+  name: thigh-highs
+  description: "A pair of thigh-highs, perfect for when you want to add a pop of color to your outfit."
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    state: thigh-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+    clothingVisuals:
+      socks:
+      - state: thigh
+  - type: TemperatureProtection
+    coolingCoefficient: 0.85

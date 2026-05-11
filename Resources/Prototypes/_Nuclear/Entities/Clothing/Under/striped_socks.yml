@@ -1,0 +1,1622 @@
+# Normal #
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedBlackWhite
+  name: black-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#3f3f3f"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#3f3f3f"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedDarkGreyWhite
+  name: dark grey-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#7b7b7b"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#7b7b7b"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedGreyWhite
+  name: grey-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#b3b3b3"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#b3b3b3"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedCyanWhite
+  name: cyan-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#5fcde4"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#5fcde4"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#5fcde4"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#5fcde4"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedBlueWhite
+  name: blue-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#52aecc"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#52aecc"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#52aecc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#52aecc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedDarkBlueWhite
+  name: dark blue-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#3285ba"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#3285ba"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3285ba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3285ba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedTealWhite
+  name: teal-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#77f3b7"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#77f3b7"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#77f3b7"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#77f3b7"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedLightGreenWhite
+  name: light green-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#9ed63a"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#9ed63a"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9ed63a"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9ed63a"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedGreenWhite
+  name: green-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#6abe30"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#6abe30"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#6abe30"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#6abe30"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedDarkGreenWhite
+  name: dark green-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#007923"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#007923"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#007923"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#007923"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedOrangeWhite
+  name: orange-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#ff8c19"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#ff8c19"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ff8c19"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ff8c19"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedPinkWhite
+  name: pink-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#ffa69b"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#ffa69b"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffa69b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffa69b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedHotPinkWhite
+  name: hot pink-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#d77bba"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#d77bba"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#d77bba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#d77bba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedRedWhite
+  name: red-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#eb0c07"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#eb0c07"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#eb0c07"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#eb0c07"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedYellowWhite
+  name: yellow-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#ffe14d"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#ffe14d"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffe14d"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffe14d"
+      - state: stripe-b_inhand-left
+      
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedPurpleWhite
+  name: purple-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#9f70cc"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#9f70cc"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9f70cc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9f70cc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedDarkPurpleWhite
+  name: dark purple-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#9a43bc"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#9a43bc"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9a43bc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9a43bc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedLightBrownWhite
+  name: light brown-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#c59431"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#c59431"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#c59431"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#c59431"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedBrownWhite
+  name: brown-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#a17229"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#a17229"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#a17229"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#a17229"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalStripedMaroonWhite
+  name: maroon-white striped socks
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_normal-icon
+      color: "#cc295f"
+    - state: stripe-b_normal-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_normal
+        color: "#cc295f"
+      - state: stripe-b_normal
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#cc295f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#cc295f"
+      - state: stripe-b_inhand-left
+
+# Knee-highs #
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedBlackWhite
+  name: black-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#3f3f3f"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#3f3f3f"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedDarkGreyWhite
+  name: dark grey-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#7b7b7b"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#7b7b7b"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedGreyWhite
+  name: grey-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#b3b3b3"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#b3b3b3"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedCyanWhite
+  name: cyan-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#5fcde4"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#5fcde4"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#5fcde4"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#5fcde4"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedBlueWhite
+  name: blue-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#52aecc"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#52aecc"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#52aecc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#52aecc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedDarkBlueWhite
+  name: dark blue-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#3285ba"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#3285ba"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3285ba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3285ba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedTealWhite
+  name: teal-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#77f3b7"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#77f3b7"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#77f3b7"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#77f3b7"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedLightGreenWhite
+  name: light green-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#9ed63a"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#9ed63a"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9ed63a"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9ed63a"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedGreenWhite
+  name: green-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#6abe30"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#6abe30"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#6abe30"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#6abe30"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedDarkGreenWhite
+  name: dark green-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#007923"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#007923"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#007923"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#007923"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedOrangeWhite
+  name: orange-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#ff8c19"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#ff8c19"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ff8c19"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ff8c19"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedPinkWhite
+  name: pink-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#ffa69b"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#ffa69b"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffa69b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffa69b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedHotPinkWhite
+  name: hot pink-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#d77bba"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#d77bba"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#d77bba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#d77bba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedRedWhite
+  name: red-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#eb0c07"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#eb0c07"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#eb0c07"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#eb0c07"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedYellowWhite
+  name: yellow-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#ffe14d"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#ffe14d"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffe14d"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffe14d"
+      - state: stripe-b_inhand-left
+      
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedPurpleWhite
+  name: purple-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#9f70cc"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#9f70cc"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9f70cc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9f70cc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedDarkPurpleWhite
+  name: dark purple-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#9a43bc"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#9a43bc"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9a43bc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9a43bc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedLightBrownWhite
+  name: light brown-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#c59431"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#c59431"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#c59431"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#c59431"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedBrownWhite
+  name: brown-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#a17229"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#a17229"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#a17229"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#a17229"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeStripedMaroonWhite
+  name: maroon-white striped knee-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_knee-icon
+      color: "#cc295f"
+    - state: stripe-b_knee-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_knee
+        color: "#cc295f"
+      - state: stripe-b_knee
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#cc295f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#cc295f"
+      - state: stripe-b_inhand-left
+
+# Thigh-highs #
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedBlackWhite
+  name: black-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#3f3f3f"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#3f3f3f"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3f3f3f"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedDarkGreyWhite
+  name: dark grey-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#7b7b7b"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#7b7b7b"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#7b7b7b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedGreyWhite
+  name: grey-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#b3b3b3"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#b3b3b3"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#b3b3b3"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedCyanWhite
+  name: cyan-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#5fcde4"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#5fcde4"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#5fcde4"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#5fcde4"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedBlueWhite
+  name: blue-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#52aecc"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#52aecc"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#52aecc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#52aecc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedDarkBlueWhite
+  name: dark blue-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#3285ba"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#3285ba"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#3285ba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#3285ba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedTealWhite
+  name: teal-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#77f3b7"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#77f3b7"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#77f3b7"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#77f3b7"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedLightGreenWhite
+  name: light green-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#9ed63a"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#9ed63a"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9ed63a"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9ed63a"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedGreenWhite
+  name: green-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#6abe30"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#6abe30"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#6abe30"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#6abe30"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedDarkGreenWhite
+  name: dark green-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#007923"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#007923"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#007923"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#007923"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedOrangeWhite
+  name: orange-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#ff8c19"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#ff8c19"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ff8c19"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ff8c19"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedPinkWhite
+  name: pink-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#ffa69b"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#ffa69b"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffa69b"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffa69b"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedHotPinkWhite
+  name: hot pink-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#d77bba"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#d77bba"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#d77bba"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#d77bba"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedRedWhite
+  name: red-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#eb0c07"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#eb0c07"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#eb0c07"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#eb0c07"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedYellowWhite
+  name: yellow-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#ffe14d"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#ffe14d"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#ffe14d"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#ffe14d"
+      - state: stripe-b_inhand-left
+      
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedPurpleWhite
+  name: purple-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#9f70cc"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#9f70cc"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9f70cc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9f70cc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedDarkPurpleWhite
+  name: dark purple-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#9a43bc"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#9a43bc"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#9a43bc"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#9a43bc"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedLightBrownWhite
+  name: light brown-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#c59431"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#c59431"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#c59431"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#c59431"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedBrownWhite
+  name: brown-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#a17229"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#a17229"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#a17229"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#a17229"
+      - state: stripe-b_inhand-left
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighStripedMaroonWhite
+  name: maroon-white striped thigh-highs
+  components:
+  - type: Sprite
+    layers:
+    - state: stripe-a_thigh-icon
+      color: "#cc295f"
+    - state: stripe-b_thigh-icon
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: stripe-a_thigh
+        color: "#cc295f"
+      - state: stripe-b_thigh
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: stripe-a_inhand-right
+        color: "#cc295f"
+      - state: stripe-b_inhand-right
+      right:
+      - state: stripe-a_inhand-left
+        color: "#cc295f"
+      - state: stripe-b_inhand-left

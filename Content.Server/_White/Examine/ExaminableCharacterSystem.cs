@@ -9,6 +9,7 @@ using Content.Server.IdentityManagement;
 using Content.Goobstation.Common.Examine; // Goobstation Change
 using Content.Goobstation.Common.CCVar; // Goobstation Change
 using Content.Shared._Goobstation.Heretic.Components; // Goobstation Change
+using Content.Shared._Nuclear.Clothing.Components; // Nuclear Change
 using Content.Shared.Chat;
 using Content.Shared.Examine;
 using Content.Shared._White.Examine;
@@ -71,15 +72,40 @@ public sealed class ExaminableCharacterSystem : EntitySystem
             { "belt", "belt-" },
             { "id", "id-" },
             { "shoes", "shoes-" },
-            { "suitstorage", "suitstorage-" }
+            { "suitstorage", "suitstorage-" },
+            // Nuclear-Add Start: underwear slots
+            { "undershirt", "undershirt-" },
+            { "underpants", "underpants-" },
+            { "socks", "socks-" }
+            // Nuclear-Add End
         };
 
         var priority = 13;
+
+        // Nuclear-Add: Checking underwear concealment using NudityCheckComponent
+        _inventorySystem.TryGetSlotEntity(uid, "jumpsuit", out var jumpsuitEnt);
+        _inventorySystem.TryGetSlotEntity(uid, "shoes", out var shoesEnt);
+
+        var jumpsuitHidesUnderwear = jumpsuitEnt != null
+            && TryComp<NudityCheckComponent>(jumpsuitEnt, out var jumpsuitNudity)
+            && jumpsuitNudity.CoversChest && jumpsuitNudity.CoversGroin;
+
+        var shoesHideSocks = shoesEnt != null
+            && TryComp<NudityCheckComponent>(shoesEnt, out var shoesNudity)
+            && shoesNudity.CoversSocks;
+        // Nuclear-Add End
 
         foreach (var slotEntry in slotLabels)
         {
             var slotName = slotEntry.Key;
             var slotLabel = slotEntry.Value;
+
+            // Nuclear-Add Start
+            if (slotName is "undershirt" or "underpants" && jumpsuitHidesUnderwear)
+                continue;
+            if (slotName is "socks" && shoesHideSocks)
+                continue;
+            // Nuclear-Add End
 
             slotLabel += "examine";
 
@@ -100,21 +126,50 @@ public sealed class ExaminableCharacterSystem : EntitySystem
             }
         }
 
-        if (priority < 13) // If nothing is worn dont show
+        // Nuclear-Edit: delegated nudity logic to NudityExaminableComponent
+        var nudity = CompOrNull<NudityExaminableComponent>(uid);
+        if (nudity != null && !string.IsNullOrEmpty(nudity.NudityMessageId))
         {
+            var msgId = nudity.NudityMessageId;
+            if (selfaware && (msgId == "examine-can-see-nothing" || msgId == "examine-chest-groin-exposed"))
+                msgId += "-selfaware";
+            var nudityMsg = Loc.GetString(msgId, ("ent", uid), ("item", nudity.NudityMessageItem ?? ""));
+            logLines.Add($"[font size=10]{nudityMsg}[/font]");
             if (showExamine)
-                args.PushMarkup($"[font size=10]{cansee}[/font]", 14);
+                args.PushMarkup($"[font size=10]{nudityMsg}[/font]", 14);
         }
-        else
+
+        if (nudity != null && !nudity.IgnoreNudity && string.IsNullOrEmpty(nudity.NudityMessageId))
         {
-            string canseenothingloc = "examine-can-see-nothing";
-
-            if (selfaware)
-                canseenothingloc += "-selfaware";
-
-            var canseenothing = Loc.GetString(canseenothingloc, ("ent", uid));
-            logLines.Add($"[color=DarkGray][font size=10]{canseenothing}[/font][/color]");
+            if (nudity.WarnChestExposure && !nudity.GroinCovered)
+            {
+                var exposedMsg = selfaware
+                    ? Loc.GetString("examine-chest-groin-exposed-selfaware")
+                    : Loc.GetString("examine-chest-groin-exposed", ("ent", uid));
+                logLines.Add($"[font size=10]{exposedMsg}[/font]");
+                if (showExamine)
+                    args.PushMarkup($"[font size=10]{exposedMsg}[/font]", 0);
+            }
+            else if (nudity.WarnChestExposure)
+            {
+                var chestMsg = selfaware
+                    ? Loc.GetString("examine-chest-exposed-selfaware")
+                    : Loc.GetString("examine-chest-exposed", ("ent", uid));
+                logLines.Add($"[font size=10]{chestMsg}[/font]");
+                if (showExamine)
+                    args.PushMarkup($"[font size=10]{chestMsg}[/font]", 0);
+            }
+            else if (!nudity.GroinCovered)
+            {
+                var groinMsg = selfaware
+                    ? Loc.GetString("examine-groin-exposed-selfaware")
+                    : Loc.GetString("examine-groin-exposed", ("ent", uid));
+                logLines.Add($"[font size=10]{groinMsg}[/font]");
+                if (showExamine)
+                    args.PushMarkup($"[font size=10]{groinMsg}[/font]", 0);
+            }
         }
+        // Nuclear-Edit End
 
         FormattedMessage message = new();
         message.PushTag(new MarkupNode("examineborder", null, null)); // border

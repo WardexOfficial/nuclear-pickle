@@ -36,6 +36,8 @@
     understands:
     - TauCetiBasic
     - RobotTalk
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: HarpySinger
     ShutUpDamageThreshold: 5 # Punch does 5 damage
   - type: Instrument

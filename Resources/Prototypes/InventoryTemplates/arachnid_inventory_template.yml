@@ -50,6 +50,32 @@
 - type: inventoryTemplate
   id: arachnid
   slots:
+    # Nuclear-Add: Underwear Start
+    - name: undershirt
+      slotTexture: undershirt
+      slotFlags: UNDERSHIRT
+      slotGroup: Extra # Orion: Extra slotGroup
+      stripTime: 8
+      uiWindowPos: 0,3
+      strippingWindowPos: 0,6
+      displayName: Undershirt
+    - name: underpants
+      slotTexture: underpants
+      slotFlags: UNDERPANTS
+      slotGroup: Extra # Orion: Extra slotGroup
+      stripTime: 12
+      uiWindowPos: 0,2
+      strippingWindowPos: 1,6
+      displayName: Underpants
+    - name: socks
+      slotTexture: socks
+      slotFlags: SOCKS
+      slotGroup: Extra # Orion: Extra slotGroup
+      stripTime: 3
+      uiWindowPos: 0,1
+      strippingWindowPos: 2,6
+      displayName: Socks
+    # Nuclear-Add: Underwear End
     - name: shoes
       slotTexture: shoes
       slotFlags: FEET

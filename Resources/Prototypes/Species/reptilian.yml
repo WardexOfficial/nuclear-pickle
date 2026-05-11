@@ -40,8 +40,10 @@
     Head: MobReptilianHead
     Face: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    Underwear: MobHumanoidAnyMarking
-    Undershirt: MobHumanoidAnyMarking
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear: MobHumanoidAnyMarking
+#    Undershirt: MobHumanoidAnyMarking
+# Nuclear-End
     Chest: MobReptilianChest
     Groin: MobReptilianGroin
     HeadTop: MobHumanoidAnyMarking
@@ -84,12 +86,14 @@
     Chest:
       points: 8
       required: false
-    Underwear:
-      points: 1
-      required: false
-    Undershirt:
-      points: 1
-      required: false
+# Nuclear-Start: Removed due to lack of need.
+#    Underwear:
+#      points: 1
+#      required: false
+#    Undershirt:
+#      points: 1
+#      required: false
+# Nuclear-End
     RightLeg:
       points: 2
       required: false

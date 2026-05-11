@@ -1,0 +1,17 @@
+- type: loadout
+  id: LoadoutCategoryFemale
+  effects:
+  - !type:BlockLoadoutEffect
+  equipment:
+    pocket1: CategoryFemale
+  groupBy:
+  - female
+
+- type: loadout
+  id: LoadoutCategoryMale
+  effects:
+  - !type:BlockLoadoutEffect
+  equipment:
+    pocket1: CategoryMale
+  groupBy:
+  - male
